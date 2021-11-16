@@ -1,10 +1,10 @@
 home:
-  title: "Rico's cheatsheets"
+  title: "Stan cheatsheets"
   tagline: |
-    Hey! I'm <a href='https://ricostacruz.com'>@rstacruz</a> and this is a modest collection of cheatsheets I've written.
+    Welcome to Stan cheatsheets! A collection of cheatsheets for users and developers collectively.
 
 top_nav:
-  title: Devhints.io
+  title: stan_cheatsheets.io
   edit: Edit
   edit_on_github: Edit this page on GitHub
 
@@ -12,7 +12,7 @@ sheet:
   suffix: cheatsheet
 
 social_list:
-  default_description: "Ridiculous collection of web development cheatsheets"
+  default_description: "A collection of Stan related cheatsheets"
   description: "The ultimate cheatsheet for TITLE."
   facebook_share: Share on Facebook
   twitter_share: Share on Twitter
@@ -45,6 +45,4 @@ announcement:
   title: |
     New: We're on Twitter ♥️
   body: |
-    Follow [@devhints](https://twitter.com/devhints) on Twitter for daily "today I learned" snippets!
-
-    [![](https://img.shields.io/twitter/follow/devhints.svg?style=social&label=@devhints)](https://twitter.com/devhints)
+    Follow [@mcmc_stan](https://twitter.com/mcmc_stan) on Twitter!
