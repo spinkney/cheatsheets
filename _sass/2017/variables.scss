@@ -27,11 +27,11 @@ $base-body: #f1f3f5;
 $base-panel: white;
 $base-head: #111;
 $base-text: #345;
-$base-mute: #556677; // gray
+$base-mute: #99747c; // gray
 
-$base-a: adjust-color(#B2001D, $lightness: -5%); // indigo
+$base-a: adjust-color(#a8747d, $lightness: -5%); // indigo
 $base-b: adjust-color(#590815, $lightness: -5%); // blue
-$base-c: adjust-color(#590815, $lightness: -35%); // teal
+$base-c: adjust-color(#5e3a3c, $lightness: -5%); // teal
 
 $base-a3: adjust-color($base-a, $lightness: 16%, $hue: -20deg);
 $base-a7: adjust-color($base-a, $lightness: -16%, $hue: 20deg);
