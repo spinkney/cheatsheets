@@ -6,7 +6,7 @@ updated: 2017-10-26
 intro: |
   This is a reference of styles that you can use on Devhints cheatsheets. How
   meta!
-  You can refer to this when contributing your own cheatsheets to the [GitHub repo](https://github.com/rstacruz/cheatsheets/).
+  You can refer to this when contributing your own cheatsheets to the [GitHub repo](https://github.com/spinkney/cheatsheets/).
 ---
 
 Intro
