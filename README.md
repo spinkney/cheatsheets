@@ -1,7 +1,7 @@
 <h1 align='center'>Stanhints</h1>
 
 <blockquote align='center'>
-Stanhints — TL;DR for Stan documentation
+Stanhints — tickle your Bayesian bone
 </blockquote>
 
 <p align='center'>
