@@ -13,6 +13,7 @@ Stanhints — tickle your Bayesian bone
 <br>
 
 <p align='center'>
+<a href='https://spinkney.io/'><img src='_docs/images/screenshot.png' width=600></a>
 <br>
 ✨ <b><a href='https://spinkney.github.io/cheatsheets/'>stan_cheatsheets.io</a></b> ✨
 </p>
