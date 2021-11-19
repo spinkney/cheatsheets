@@ -1,7 +1,7 @@
-<h1 align='center'>Devhints</h1>
+<h1 align='center'>Stanhints</h1>
 
 <blockquote align='center'>
-TL;DR for developer documentation - a ridiculous collection of cheatsheets
+Stanhints — TL;DR for Stan documentation
 </blockquote>
 
 <p align='center'>
@@ -13,9 +13,8 @@ TL;DR for developer documentation - a ridiculous collection of cheatsheets
 <br>
 
 <p align='center'>
-<a href='https://devhints.io/'><img src='_docs/images/screenshot.png' width=600></a>
 <br>
-✨ <b><a href='https://devhints.io/'>devhints.io</a></b> ✨
+✨ <b><a href='https://spinkney.github.io/cheatsheets/'>stan_cheatsheets.io</a></b> ✨
 </p>
 
 <br>
@@ -23,5 +22,3 @@ TL;DR for developer documentation - a ridiculous collection of cheatsheets
 ---
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for developer notes.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rstacruz/cheatsheets)
