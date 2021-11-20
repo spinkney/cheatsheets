@@ -13,7 +13,7 @@ trap exit_failure ERR
 
 
 files=(
-  _site/Git.html
+  _site/git.html
   _site/index.html
 )
 
