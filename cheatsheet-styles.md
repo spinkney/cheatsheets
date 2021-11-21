@@ -2,6 +2,7 @@
 title: Cheatsheet styles
 layout: 2017/sheet
 tags: [WIP]
+category: Other
 updated: 2021-10-21
 intro: |
   This is a reference of styles that you can use on Stanhints cheatsheets. How

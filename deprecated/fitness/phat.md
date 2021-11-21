@@ -2,7 +2,6 @@
 title: Phat
 category: Fitness
 layout: 2017/sheet
-updated: 2017-08-30
 ---
 
 ### Day 1: Upper Body Power
