@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://spinkney.github.io/cheatsheets//</loc></url>
-<url><loc>https://spinkney.github.io/cheatsheets//101</loc></url>
+<url><loc>https://spinkney.github.io/cheatsheets//deprecated/101</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/absinthe</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/activeadmin</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/adb</loc></url>
@@ -100,8 +100,8 @@
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/flynn</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/freenode</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/frequency-separation-retouching</loc></url>
-<url><loc>https://spinkney.github.io/cheatsheets//fitness/general</loc></url>
-<url><loc>https://spinkney.github.io/cheatsheets//gh-pages</loc></url>
+<url><loc>https://spinkney.github.io/cheatsheets//deprecated/fitness/general</loc></url>
+<url><loc>https://spinkney.github.io/cheatsheets//deprecated/gh-pages</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//git-branch</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//git-extras</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//git-log-format</loc></url>
@@ -136,7 +136,7 @@
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/imagemagick</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/immutable.js</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/inkscape</loc></url>
-<url><loc>https://spinkney.github.io/cheatsheets//wip/intl-datetime</loc></url>
+<url><loc>https://spinkney.github.io/cheatsheets//deprecated/intl-datetime</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/ios-provision</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/jade</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/jasmine</loc></url>
@@ -169,7 +169,7 @@
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/ledger-query</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/ledger</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/less</loc></url>
-<url><loc>https://spinkney.github.io/cheatsheets//licenses</loc></url>
+<url><loc>https://spinkney.github.io/cheatsheets//deprecated/licenses</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/linux</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/lodash</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/lua</loc></url>
@@ -182,7 +182,7 @@
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/markdown</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/meow</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/meta-tags</loc></url>
-<url><loc>https://spinkney.github.io/cheatsheets//fitness/micronutrients</loc></url>
+<url><loc>https://spinkney.github.io/cheatsheets//deprecated/fitness/micronutrients</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/middleman</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/minimist</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/minitest</loc></url>
@@ -218,7 +218,7 @@
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/passenger</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/perl-pie</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/ph-food-delivery</loc></url>
-<url><loc>https://spinkney.github.io/cheatsheets//fitness/phat</loc></url>
+<url><loc>https://spinkney.github.io/cheatsheets//deprecated/fitness/phat</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/phoenix-conn</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/phoenix-ecto</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/phoenix-ecto@1.2</loc></url>
@@ -227,7 +227,7 @@
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/phoenix-routing</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/phoenix</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/phoenix@1.2</loc></url>
-<url><loc>https://spinkney.github.io/cheatsheets//wip/php</loc></url>
+<url><loc>https://spinkney.github.io/cheatsheets//deprecated/php</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/plantuml</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/pm2</loc></url>
 <url><loc>https://spinkney.github.io/cheatsheets//deprecated/polyfill.io</loc></url>
