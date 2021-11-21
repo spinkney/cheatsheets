@@ -2,7 +2,7 @@
 title: Xpath
 category: HTML
 layout: 2017/sheet
-tags: [Featured]
+
 weight: -5
 description: |
   $x('//div//p//*') == $('div p *'), $x('//[@id="item"]') == $('#item'), and many other Xpath examples.

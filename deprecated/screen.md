@@ -2,7 +2,7 @@
 title: Screen
 category: CLI
 layout: 2017/sheet
-updated: 2020-12-05
+
 keywords:
   - Screen
   - Linux

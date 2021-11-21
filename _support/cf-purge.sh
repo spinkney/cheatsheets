@@ -11,8 +11,8 @@
     | uniq \
     | sed 's/\.md$//g'
 ) \
-  | sed 's#^#https://devhints.io/#g' \
-  | xargs echo https://devhints.io/ \
+  | sed 's#^#https://spinkney.github.io/cheatsheets//#g' \
+  | xargs echo https://spinkney.github.io/cheatsheets/ \
   | pbcopy
 
 echo "Copied to clipboard."
