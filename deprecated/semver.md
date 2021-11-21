@@ -1,7 +1,7 @@
 ---
 title: Semver
 layout: 2017/sheet
-updated: 2019-12-31
+
 weight: -3
 ---
 
