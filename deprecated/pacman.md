@@ -1,7 +1,6 @@
 ---
 title: Pacman
 category: Linux
-updated: 2018-07-07
 intro: |
   Pacman is the package manager for Arch linux and its derivatives.
 ---

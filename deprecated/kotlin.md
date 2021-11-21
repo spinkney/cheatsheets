@@ -1,7 +1,6 @@
 ---
 title: Kotlin
 layout: 2017/sheet
-updated: 2018-12-06
 category: Java & JVM
 prism_languages: [kotlin]
 intro: |

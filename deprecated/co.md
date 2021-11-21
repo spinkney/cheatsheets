@@ -2,7 +2,6 @@
 title: co
 category: JavaScript libraries
 layout: 2017/sheet
-updated: 2017-10-27
 weight: -1
 intro: |
   [co](https://github.com/tj/co) allows you to use generators to manage async flow.

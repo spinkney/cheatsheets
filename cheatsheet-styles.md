@@ -2,9 +2,9 @@
 title: Cheatsheet styles
 layout: 2017/sheet
 tags: [WIP]
-updated: 2017-10-26
+updated: 2021-10-21
 intro: |
-  This is a reference of styles that you can use on Devhints cheatsheets. How
+  This is a reference of styles that you can use on Stanhints cheatsheets. How
   meta!
   You can refer to this when contributing your own cheatsheets to the [GitHub repo](https://github.com/spinkney/cheatsheets/).
 ---

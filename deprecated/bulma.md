@@ -4,7 +4,6 @@ category: CSS
 layout: 2017/sheet
 prism_languages: [css, html]
 weight: -1
-updated: 2018-11-19
 authors:
   - github: benolot
 description: |

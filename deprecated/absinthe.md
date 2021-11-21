@@ -3,7 +3,6 @@ title: Absinthe
 category: Hidden
 layout: 2017/sheet
 tags: [WIP]
-updated: 2017-10-10
 intro: |
   [Absinthe](http://absinthe-graphql.org/) allows you to write GraphQL servers in Elixir.
 ---

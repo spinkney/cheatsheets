@@ -2,7 +2,6 @@
 title: Camp
 layout: 2017/sheet
 category: JavaScript libraries
-updated: 2017-09-21
 weight: -1
 intro: |
   [Camp](https://github.com/espadrine/sc/) is a Node.js web server framework. This guide targets Camp v17.x.

@@ -2,7 +2,6 @@
 title: Jshint
 category: JavaScript libraries
 layout: 2017/sheet
-updated: 2017-09-12
 ---
 
 ### Relaxing
