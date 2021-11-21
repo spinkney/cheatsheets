@@ -592,7 +592,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2019-08-23"
+  "updated": null
 },{
   "id": "deprecated/css-system-font-stack",
   "title": "CSS system fonts",
@@ -757,7 +757,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2019-10-20"
+  "updated": null
 },{
   "id": "deprecated/dom-range",
   "title": "DOM Range",
@@ -790,7 +790,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2019-09-25"
+  "updated": null
 },{
   "id": "deprecated/elixir-metaprogramming",
   "title": "Elixir metaprogramming",
@@ -878,7 +878,7 @@
   "intro_html": "<p>A quick overview of new JavaScript features in ES2015, ES2016, ES2017, ES2018 and beyond.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2019-11-14"
+  "updated": null
 },{
   "id": "deprecated/ets",
   "title": "Erlang ETS",
@@ -988,7 +988,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2019-11-17"
+  "updated": null
 },{
   "id": "deprecated/firebase",
   "title": "Firebase",
@@ -1241,7 +1241,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2019-07-07"
+  "updated": null
 },{
   "id": "deprecated/gremlins",
   "title": "Gremlins.js",
@@ -2264,7 +2264,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2019-12-24"
+  "updated": null
 },{
   "id": "deprecated/org-mode",
   "title": "Org Mode",
@@ -2902,7 +2902,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2019-07-07"
+  "updated": null
 },{
   "id": "deprecated/riot",
   "title": "Riot.js",
@@ -3089,7 +3089,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2019-12-31"
+  "updated": null
 },{
   "id": "deprecated/sequel",
   "title": "Sequel",
@@ -3276,7 +3276,7 @@
   "intro_html": "<p><a href=\"https://github.com/ionic-team/stencil\">Stencil</a> is a compiler for web components made by the Ionic team. This guide targets Stencil v0.0.5.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2019-05-08"
+  "updated": null
 },{
   "id": "deprecated/stimulus-reflex",
   "title": "StimulusReflex",
@@ -3661,7 +3661,7 @@
   "intro_html": "<p><a href=\"https://vuejs.org/\">Vue.js</a> is an open-source Model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2019-12-26"
+  "updated": null
 },{
   "id": "deprecated/vue@1.0.28",
   "title": "Vue.js v1.0.28",
@@ -3782,7 +3782,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": ["Featurable"],
-  "updated": "2019-09-30"
+  "updated": null
 },{
   "id": "deprecated/znc",
   "title": "ZNC bouncer",
