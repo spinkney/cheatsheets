@@ -20,7 +20,7 @@
   "intro_html": "<p><a href=\"http://absinthe-graphql.org/\">Absinthe</a> allows you to write GraphQL servers in Elixir.</p>",
   "description_html": "",
   "tags": ["WIP"],
-  "updated": "2017-10-10"
+  "updated": null
 },{
   "id": "deprecated/activeadmin",
   "title": "ActiveAdmin",
@@ -42,7 +42,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-03-06"
+  "updated": null
 },{
   "id": "deprecated/analytics.js",
   "title": "Google Analytics's analytics.js",
@@ -53,7 +53,7 @@
   "intro_html": "<p>Google Analytics’s analytics.js is deprecated.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-29"
+  "updated": null
 },{
   "id": "deprecated/analytics",
   "title": "Analytics libraries",
@@ -130,7 +130,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-03"
+  "updated": null
 },{
   "id": "deprecated/ansible-roles",
   "title": "Ansible roles",
@@ -174,7 +174,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-12-06"
+  "updated": null
 },{
   "id": "deprecated/applinks",
   "title": "Applinks",
@@ -218,7 +218,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-11-19"
+  "updated": null
 },{
   "id": "deprecated/awscli",
   "title": "AWS CLI",
@@ -240,7 +240,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-12-06"
+  "updated": null
 },{
   "id": "deprecated/bash",
   "title": "Bash scripting",
@@ -273,7 +273,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-09-08"
+  "updated": null
 },{
   "id": "deprecated/bolt",
   "title": "Bolt Quickstart",
@@ -284,7 +284,7 @@
   "intro_html": "",
   "description_html": "<p>A quick guide to getting started writing Bolt tasks</p>",
   "tags": null,
-  "updated": "2018-12-25"
+  "updated": null
 },{
   "id": "deprecated/bookshelf",
   "title": "Bookshelf.js",
@@ -350,7 +350,7 @@
   "intro_html": "",
   "description_html": "<p>Basic guide on how to use Bulma, the lightweight css flexbox framework.</p>",
   "tags": null,
-  "updated": "2018-11-19"
+  "updated": null
 },{
   "id": "deprecated/bundler",
   "title": "Bundler",
@@ -383,7 +383,7 @@
   "intro_html": "<p><a href=\"https://github.com/espadrine/sc/\">Camp</a> is a Node.js web server framework. This guide targets Camp v17.x.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-09-21"
+  "updated": null
 },{
   "id": "deprecated/canvas",
   "title": "Canvas",
@@ -427,18 +427,18 @@
   "intro_html": "",
   "description_html": "<p>expect(x).to.be.equal(y) 〉 assert.equal(x, y) 〉 .to.be.true 〉 jQuery, assertions, TDD and BDD, and other Chai examples.</p>",
   "tags": null,
-  "updated": "2018-06-25"
+  "updated": null
 },{
-  "id": "deprecated/cheatsheet-styles",
+  "id": "cheatsheet-styles",
   "title": "Cheatsheet styles",
-  "url": "/deprecated/cheatsheet-styles",
+  "url": "/cheatsheet-styles",
   "category": "Others",
   "keywords": null,
   "content_html": "<h2 id=\"intro\">Intro</h2>\n\n<h2 class=\"-three-column\" id=\"variants\">Variants</h2>\n\n<h3 id=\"h2-sections\">H2 sections</h3>\n\n<table>\n  <tbody>\n    <tr>\n      <td><code>-one-column</code></td>\n      <td> </td>\n    </tr>\n    <tr>\n      <td><code>-two-column</code></td>\n      <td><em>(default)</em></td>\n    </tr>\n    <tr>\n      <td><code>-three-column</code></td>\n      <td> </td>\n    </tr>\n    <tr>\n      <td><code>-left-reference</code></td>\n      <td>3 columns<br /><em>(short first column)</em></td>\n    </tr>\n    <tr>\n      <td><code>-no-hide</code></td>\n      <td>Don’t hide H2</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>See: <a href=\"#two-columns\">H2 sections</a></p>\n\n<h3 id=\"h3-sections\">H3 sections</h3>\n\n<table>\n  <tbody>\n    <tr>\n      <td><code>-prime</code></td>\n      <td>Highlight</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>See: <a href=\"#h3-sections-1\">H3 sections</a></p>\n\n<h3 id=\"tables\">Tables</h3>\n\n<table>\n  <tbody>\n    <tr>\n      <td><code>-bold-first</code></td>\n      <td>Bold first column</td>\n    </tr>\n    <tr>\n      <td><code>-headers</code></td>\n      <td>Show headers</td>\n    </tr>\n    <tr>\n      <td><code>-left-align</code></td>\n      <td>Don’t right align last column</td>\n    </tr>\n    <tr>\n      <td><code>-mute-em</code></td>\n      <td>Lower opacity for italics</td>\n    </tr>\n    <tr>\n      <td><code>-no-wrap</code></td>\n      <td>Don’t wrap text</td>\n    </tr>\n    <tr>\n      <td><code>-shortcuts</code></td>\n      <td>Shortcut keys</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>See: <a href=\"#tables-1\">Tables</a></p>\n\n<h3 id=\"code\">Code</h3>\n\n<table>\n  <tbody>\n    <tr>\n      <td><code>-box-chars</code></td>\n      <td>Less line height<br /><em>for box drawing chars</em></td>\n    </tr>\n    <tr>\n      <td><code>-setup</code></td>\n      <td>Gray background</td>\n    </tr>\n    <tr>\n      <td><code>-wrap</code></td>\n      <td>Enables line-wrapping</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>See: <a href=\"#code-1\">Code</a></p>\n\n<h3 id=\"paragraphs\">Paragraphs</h3>\n\n<table class=\"-gray\">\n  <tbody>\n    <tr>\n      <td><code>-setup</code></td>\n      <td>Gray background</td>\n    </tr>\n    <tr>\n      <td><code>-crosslink</code></td>\n      <td>Has arrow on the link</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>See: <a href=\"#paragraphs-1\">Paragraphs</a></p>\n\n<h3 id=\"lists\">Lists</h3>\n\n<table>\n  <tbody>\n    <tr>\n      <td><code>-also-see</code></td>\n      <td>Lighter background</td>\n    </tr>\n    <tr>\n      <td><code>-four-column</code></td>\n      <td> </td>\n    </tr>\n    <tr>\n      <td><code>-six-column</code></td>\n      <td> </td>\n    </tr>\n  </tbody>\n</table>\n\n<p>See: <a href=\"#lists-1\">Lists</a></p>\n\n<h3 class=\"-prime\" id=\"adding-variants\">Adding variants</h3>\n\n<pre><code>## Section\n{: .-two-column}\n</code></pre>\n\n<p>Devhints uses Kramdown, and supports adding classes via Kramdown’s syntax.</p>\n\n<h2 class=\"-three-column\" id=\"h3-sections-1\">H3 sections</h2>\n\n<h3 id=\"supported\">Supported</h3>\n\n<p>Each section can have the following children:</p>\n\n<h4 id=\"white\">White</h4>\n\n<ul>\n  <li><code>pre</code></li>\n  <li><code>ul</code></li>\n  <li><code>table</code></li>\n</ul>\n\n<h4 id=\"gray\">Gray</h4>\n\n<ul>\n  <li><code>p</code></li>\n  <li><code>h4</code></li>\n</ul>\n\n<h3 class=\"-prime\" id=\"prime-section\">Prime section</h3>\n\n<p>This is a section with <code>{: .-prime}</code>. Notice the fancy highlight! Great for “getting started” kind of snippets.</p>\n\n<h3 id=\"h3-section\">H3 section</h3>\n\n<p>Every box is an H3 section. The box will encompass everything inside the body of the H3.</p>\n\n<p>This is a basic section with paragraphs in it.</p>\n\n<h2 class=\"-three-column\" id=\"code-1\">Code</h2>\n\n<h3 id=\"basic-code\">Basic code</h3>\n\n<pre><code class=\"language-js\">here.is(() =&gt; {\n  some.code()\n})\n</code></pre>\n\n<pre><code class=\"language-js\">here.is.some.more()\n</code></pre>\n\n<p>Code blocks can be placed one after the other.</p>\n\n<p>See: <a href=\"/\">Cheatsheets</a></p>\n\n<h3 id=\"code-with-headings\">Code with headings</h3>\n\n<h4 class=\"-file\" id=\"indexjs\">index.js</h4>\n\n<pre><code class=\"language-js\">here.is(() =&gt; {\n  some.code()\n})\n</code></pre>\n\n<h4 class=\"-file\" id=\"otherjs\">other.js</h4>\n\n<pre><code class=\"language-js\">here.is.some.more()\n</code></pre>\n\n<p>Code blocks can have headings.</p>\n\n<h3 id=\"highlighted-lines\">Highlighted lines</h3>\n\n<pre data-line=\"3\"><code class=\"language-js\">app.start(() =&gt; {\n  const port = app.server.port\n  console.log(`Started at ${port}`)\n})\n</code></pre>\n\n<p>Add <code>{: data-line=\"3\"}</code> to add line highlights.</p>\n\n<h3 id=\"multiple-highlights\">Multiple highlights</h3>\n\n<pre data-line=\"2,3\"><code class=\"language-js\">app.start(() =&gt; {\n  const port = app.server.port\n  console.log(`Started at ${port}`)\n})\n</code></pre>\n\n<p>Add <code>{: data-line=\"2,3\"}</code> to add multiple line highlights.</p>\n\n<h3 id=\"setup-blocks\">Setup blocks</h3>\n\n<pre class=\"-setup\"><code class=\"language-js\">import React from 'react'\n</code></pre>\n\n<pre><code class=\"language-js\">class Hello extends React.Component {\n  render () {\n    return &lt;span&gt;Hello&lt;/span&gt;\n  }\n}\n</code></pre>\n\n<p>Add <code>{: .-setup}</code> to a <code>pre</code> or <code>table</code> or <code>ul</code>.</p>\n\n<h3 id=\"long-lines\">Long lines</h3>\n\n<pre><code class=\"language-js\">function createNode(nodeName: string, options: { key: string }) {\n  return true\n}\n</code></pre>\n\n<p>Long lines will have scrollbars.</p>\n\n<h3 id=\"line-wrapping\">Line wrapping</h3>\n\n<pre class=\"-wrap\"><code class=\"language-js\">&lt;script&gt;(function(d,s){if(window.Promise&amp;&amp;[].includes&amp;&amp;Object.assign&amp;&amp;window.Map)return;var js,sc=d.getElementsByTagName(s)[0];js=d.createElement(s);js.src='https://cdn.polyfill.io/v2/polyfill.min.js';sc.parentNode.insertBefore(js, sc);}(document,'script'))&lt;/script&gt;\n</code></pre>\n\n<p>Add <code>-wrap</code> to wrap long lines.</p>\n\n<h2 class=\"-three-column\" id=\"lists-1\">Lists</h2>\n\n<h3 id=\"lists-2\">Lists</h3>\n\n<ul>\n  <li>This is</li>\n  <li>a list</li>\n  <li>with a few items</li>\n</ul>\n\n<p>Here’s an extra paragraph after the list.</p>\n\n<h3 id=\"lists-with-headings\">Lists with headings</h3>\n\n<h4 id=\"part-1\">Part 1</h4>\n\n<ul>\n  <li><code>createElement()</code></li>\n  <li><code>componentDidMount()</code></li>\n  <li><code>componentWillUnmount()</code></li>\n</ul>\n\n<h4 id=\"part-2\">Part 2</h4>\n\n<ul>\n  <li><code>shouldComponentUpdate()</code></li>\n  <li><code>componentWillReceiveProps()</code></li>\n</ul>\n\n<p>Here’s an extra paragraph after the list.</p>\n\n<h2 class=\"-one-column\" id=\"list-columns\">List columns</h2>\n\n<h3 id=\"six-columns\">Six columns</h3>\n\n<ul class=\"-six-column\">\n  <li>One</li>\n  <li>Two</li>\n  <li>Three</li>\n  <li>Four</li>\n  <li>Five</li>\n  <li>Six</li>\n  <li>Seven</li>\n  <li>Eight</li>\n  <li>Nine</li>\n  <li>Ten</li>\n  <li>Eleven</li>\n</ul>\n\n<p>Add <code>{: .-six-column}</code> to make large lists.</p>\n\n<h3 id=\"four-columns\">Four columns</h3>\n\n<ul class=\"-four-column\">\n  <li>One</li>\n  <li>Two</li>\n  <li>Three</li>\n  <li>Four</li>\n  <li>Five</li>\n  <li>Six</li>\n  <li>Seven</li>\n  <li>Eight</li>\n  <li>Nine</li>\n  <li>Ten</li>\n  <li>Eleven</li>\n</ul>\n\n<p>Add <code>{: .-four-column}</code> to make large lists.</p>\n\n<h3 id=\"also-see\">Also see</h3>\n\n<ul class=\"-also-see\">\n  <li>One</li>\n  <li>Two</li>\n  <li>Three</li>\n  <li>Four</li>\n  <li>Five</li>\n  <li>Six</li>\n  <li>Seven</li>\n  <li>Eight</li>\n  <li>Nine</li>\n  <li>Ten</li>\n</ul>\n\n<p>Add <code>{: .-also-see}</code>.</p>\n\n<h2 class=\"-three-column\" id=\"paragraphs-1\">Paragraphs</h2>\n\n<h3 id=\"basic-paragraphs\">Basic paragraphs</h3>\n\n<p>This is a basic section with paragraphs in it. When paragraphs are the first elements in an H3 section’s body, they appear as white.</p>\n\n<h3 id=\"basic-paragraphs-1\">Basic paragraphs</h3>\n\n<pre><code>···\n</code></pre>\n\n<p>When paragraphs appear after <code>pre</code>/<code>table</code>/<code>ul</code>, they appear with a gray background.</p>\n\n<h3 id=\"preludes\">Preludes</h3>\n\n<p class=\"-setup\">Here’s a prelude paragraph. Add <code>{: .-setup}</code> to make paragraphs appear with a gray background.</p>\n\n<pre><code>···\n</code></pre>\n\n<h3 id=\"crosslink\">Crosslink</h3>\n\n<p>Add <code>{: .-crosslink}</code> to make big loud external links:</p>\n\n<pre><code>···\n</code></pre>\n\n<p class=\"-crosslink\"><a href=\"/\">Home</a></p>\n\n<h2 class=\"-three-column\" id=\"tables-1\">Tables</h2>\n\n<h3 id=\"basic-table\">Basic table</h3>\n\n<h4 id=\"date\">Date</h4>\n\n<table>\n  <thead>\n    <tr>\n      <th>Example</th>\n      <th>Output</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><code>%m/%d/%Y</code></td>\n      <td><code>06/05/2013</code></td>\n    </tr>\n    <tr>\n      <td><code>%A, %B %e, %Y</code></td>\n      <td><code>Sunday, June 5, 2013</code></td>\n    </tr>\n    <tr>\n      <td><code>%b %e %a</code></td>\n      <td><code>Jun 5 Sun</code></td>\n    </tr>\n  </tbody>\n</table>\n\n<h4 id=\"time\">Time</h4>\n\n<table>\n  <thead>\n    <tr>\n      <th>Example</th>\n      <th>Output</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><code>%H:%M</code></td>\n      <td><code>23:05</code></td>\n    </tr>\n    <tr>\n      <td><code>%I:%M %p</code></td>\n      <td><code>11:05 PM</code></td>\n    </tr>\n  </tbody>\n</table>\n\n<p>This is a basic table with h4’s.</p>\n\n<h3 id=\"shortcuts\">Shortcuts</h3>\n\n<table class=\"-shortcuts\">\n  <tbody>\n    <tr>\n      <td><code>V</code></td>\n      <td>Vector</td>\n    </tr>\n    <tr>\n      <td><code>P</code></td>\n      <td>Pencil</td>\n    </tr>\n    <tr>\n      <td><code>T</code></td>\n      <td>Text</td>\n    </tr>\n    <tr>\n      <td><code>L</code></td>\n      <td>Line</td>\n    </tr>\n    <tr>\n      <td><code>R</code></td>\n      <td>Rectangle</td>\n    </tr>\n    <tr>\n      <td><code>O</code></td>\n      <td>Oval</td>\n    </tr>\n    <tr>\n      <td><code>U</code></td>\n      <td>Rounded</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>Add <code>{: .-shortcuts}</code> to tables.</p>\n\n<h3 id=\"with-headers\">With headers</h3>\n\n<table class=\"-headers\">\n  <thead>\n    <tr>\n      <th>Prefix</th>\n      <th>Example</th>\n      <th>What</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><code>//</code></td>\n      <td><code>//hr[@class='edge']</code></td>\n      <td>Anywhere</td>\n    </tr>\n    <tr>\n      <td><code>./</code></td>\n      <td><code>./a</code></td>\n      <td>Relative</td>\n    </tr>\n    <tr>\n      <td><code>/</code></td>\n      <td><code>/html/body/div</code></td>\n      <td>Root</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>Add <code>{: .-headers}</code> to add headers.</p>\n\n<h2 id=\"two-columns\">Two columns</h2>\n\n<h3 id=\"one\">One</h3>\n\n<pre><code>···\n</code></pre>\n\n<h3 id=\"two\">Two</h3>\n\n<pre><code>···\n</code></pre>\n\n<h2 class=\"-left-reference\" id=\"left-reference\">Left reference</h2>\n\n<h3 id=\"one-1\">One</h3>\n\n<pre><code>···\n···\n···\n···\n···\n···\n···\n···\n</code></pre>\n\n<h3 id=\"two-1\">Two</h3>\n\n<pre><code>···\n</code></pre>\n\n<h3 id=\"three\">Three</h3>\n\n<pre><code>···\n</code></pre>\n\n<h2 class=\"-one-column\" id=\"one-column\">One column</h2>\n\n<h3 id=\"one-2\">One</h3>\n\n<pre><code>···\n</code></pre>",
-  "intro_html": "<p>This is a reference of styles that you can use on Devhints cheatsheets. How\nmeta!\nYou can refer to this when contributing your own cheatsheets to the <a href=\"https://github.com/spinkney/cheatsheets/\">GitHub repo</a>.</p>",
+  "intro_html": "<p>This is a reference of styles that you can use on Stanhints cheatsheets. How\nmeta!\nYou can refer to this when contributing your own cheatsheets to the <a href=\"https://github.com/spinkney/cheatsheets/\">GitHub repo</a>.</p>",
   "description_html": "",
   "tags": ["WIP"],
-  "updated": "2017-10-26"
+  "updated": "2021-10-21"
 },{
   "id": "deprecated/chef",
   "title": "Chef",
@@ -471,7 +471,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-05-14"
+  "updated": null
 },{
   "id": "deprecated/circle",
   "title": "CircleCI",
@@ -493,7 +493,7 @@
   "intro_html": "<p><a href=\"https://github.com/tj/co\">co</a> allows you to use generators to manage async flow.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-27"
+  "updated": null
 },{
   "id": "deprecated/command_line",
   "title": "Command line stuff",
@@ -548,7 +548,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-05-03"
+  "updated": null
 },{
   "id": "deprecated/csharp7",
   "title": "C# 7",
@@ -559,7 +559,7 @@
   "intro_html": "",
   "description_html": "<p>A quick overview of C# 7</p>",
   "tags": null,
-  "updated": "2018-12-06"
+  "updated": null
 },{
   "id": "deprecated/css-antialias",
   "title": "CSS antialiasing",
@@ -570,7 +570,7 @@
   "intro_html": "<p>Here’s a 4-line snippet on how to get beautiful, antialiased text with CSS.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-13"
+  "updated": null
 },{
   "id": "deprecated/css-flexbox",
   "title": "CSS flexbox",
@@ -636,7 +636,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": ["Featurable"],
-  "updated": "2017-10-30"
+  "updated": null
 },{
   "id": "deprecated/curl",
   "title": "Curl",
@@ -658,7 +658,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": ["Featurable"],
-  "updated": "2017-11-27"
+  "updated": null
 },{
   "id": "deprecated/deis",
   "title": "Deis",
@@ -811,8 +811,8 @@
   "content_html": "<h2 class=\"-three-column\" id=\"getting-started\">Getting started</h2>\n\n<h3 class=\"-prime\" id=\"hello-world\">Hello world</h3>\n\n<pre><code class=\"language-elixir\"># hello.exs\ndefmodule Greeter do\n  def greet(name) do\n    message = \"Hello, \" &lt;&gt; name &lt;&gt; \"!\"\n    IO.puts message\n  end\nend\n\nGreeter.greet(\"world\")\n</code></pre>\n\n<pre class=\"-setup\"><code class=\"language-bash\">elixir hello.exs\n# Hello, world!\n</code></pre>\n\n<h3 id=\"variables\">Variables</h3>\n\n<pre><code class=\"language-elixir\">age = 23\n</code></pre>\n\n<h3 id=\"maps\">Maps</h3>\n\n<pre><code class=\"language-elixir\">user = %{\n  name: \"John\",\n  city: \"Melbourne\"\n}\n</code></pre>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">IO.puts \"Hello, \" &lt;&gt; user.name\n</code></pre>\n\n<h3 id=\"lists\">Lists</h3>\n\n<pre data-line=\"1\"><code class=\"language-elixir\">users = [ \"Tom\", \"Dick\", \"Harry\" ]\n</code></pre>\n\n<pre><code class=\"language-elixir\">Enum.map(users, fn user -&gt;\n  IO.puts \"Hello \" &lt;&gt; user\nend)\n</code></pre>\n\n<h3 id=\"piping\">Piping</h3>\n\n<pre data-line=\"2,3\"><code class=\"language-elixir\">source\n|&gt; transform(:hello)\n|&gt; print()\n</code></pre>\n\n<pre><code class=\"language-elixir\"># Same as:\nprint(transform(source, :hello))\n</code></pre>\n\n<p>These two are equivalent.</p>\n\n<h3 id=\"pattern-matching\">Pattern matching</h3>\n\n<pre data-line=\"2\"><code class=\"language-elixir\">user = %{name: \"Tom\", age: 23}\n%{name: username} = user\n</code></pre>\n\n<p>This sets <code>username</code> to <code>\"Tom\"</code>.</p>\n\n<h3 id=\"pattern-matching-in-functions\">Pattern matching in functions</h3>\n\n<pre data-line=\"1\"><code class=\"language-elixir\">def greet(%{name: username}) do\n  IO.puts \"Hello, \" &lt;&gt; username\nend\n\nuser = %{name: \"Tom\", age: 23}\n</code></pre>\n\n<p>Pattern matching works in function parameters too.</p>\n\n<h2 class=\"-three-column\" id=\"control-flow\">Control flow</h2>\n\n<h3 id=\"if\">If</h3>\n\n<pre><code class=\"language-elixir\">if false do\n  \"This will never be seen\"\nelse\n  \"This will\"\nend\n</code></pre>\n<h3 id=\"case\">Case</h3>\n\n<pre><code class=\"language-elixir\">case {1, 2, 3} do\n  {4, 5, 6} -&gt;\n    \"This clause won't match\"\n  {1, x, 3} -&gt;\n    \"This will match and bind x to 2\"\n  _ -&gt;\n   \"This will match any value\"\nend\n</code></pre>\n\n<h3 id=\"cond\">Cond</h3>\n\n<pre><code class=\"language-elixir\">cond do\n  1 + 1 == 3 -&gt;\n    \"I will never be seen\"\n  2 * 5 == 12 -&gt;\n    \"Me neither\"\n  true -&gt;\n    \"But I will (this is essentially an else)\"\nend\n</code></pre>\n\n<h3 id=\"errors\">Errors</h3>\n\n<pre><code class=\"language-elixir\">try do\n  throw(:hello)\ncatch\n  message -&gt; \"Got #{message}.\"\nafter\n  IO.puts(\"I'm the after clause.\")\nend\n</code></pre>\n\n<h2 id=\"types\">Types</h2>\n\n<h3 id=\"primitives\">Primitives</h3>\n\n<table>\n  <thead>\n    <tr>\n      <th>Sample</th>\n      <th>Type</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><code>nil</code></td>\n      <td>Nil/null</td>\n    </tr>\n    <tr>\n      <td><code>true</code> <em>/</em> <code>false</code></td>\n      <td>Boolean</td>\n    </tr>\n  </tbody>\n  <tbody>\n    <tr>\n      <td><code>?a</code></td>\n      <td>Integer (ASCII)</td>\n    </tr>\n    <tr>\n      <td><code>23</code></td>\n      <td>Integer</td>\n    </tr>\n    <tr>\n      <td><code>3.14</code></td>\n      <td>Float</td>\n    </tr>\n  </tbody>\n  <tbody>\n    <tr>\n      <td><code>'hello'</code></td>\n      <td>Charlist</td>\n    </tr>\n    <tr>\n      <td><code>&lt;&lt;2, 3&gt;&gt;</code></td>\n      <td>Binary</td>\n    </tr>\n    <tr>\n      <td><code>\"hello\"</code></td>\n      <td>Binary string</td>\n    </tr>\n    <tr>\n      <td><code>:hello</code></td>\n      <td>Atom</td>\n    </tr>\n  </tbody>\n  <tbody>\n    <tr>\n      <td><code>[a, b]</code></td>\n      <td>List</td>\n    </tr>\n    <tr>\n      <td><code>{a, b}</code></td>\n      <td>Tuple</td>\n    </tr>\n  </tbody>\n  <tbody>\n    <tr>\n      <td><code>%{a: \"hello\"}</code></td>\n      <td>Map</td>\n    </tr>\n    <tr>\n      <td><code>%MyStruct{a: \"hello\"}</code></td>\n      <td>Struct</td>\n    </tr>\n    <tr>\n      <td><code>fn -&gt; ... end</code></td>\n      <td>Function</td>\n    </tr>\n  </tbody>\n</table>\n\n<h3 id=\"type-checks\">Type checks</h3>\n\n<pre><code class=\"language-elixir\">is_atom/1\nis_bitstring/1\nis_boolean/1\nis_function/1\nis_function/2\nis_integer/1\nis_float/1\n</code></pre>\n\n<pre><code class=\"language-elixir\">is_binary/1\nis_list/1\nis_map/1\nis_tuple/1\n</code></pre>\n\n<pre><code class=\"language-elixir\">is_nil/1\nis_number/1\nis_pid/1\nis_port/1\nis_reference/1\n</code></pre>\n\n<h3 id=\"operators\">Operators</h3>\n\n<pre><code class=\"language-elixir\">left != right   # equal\nleft !== right  # match\nleft ++ right   # concat lists\nleft &lt;&gt; right   # concat string/binary\nleft =~ right   # regexp\n</code></pre>\n\n<h2 id=\"modules\">Modules</h2>\n\n<h3 id=\"importing\">Importing</h3>\n\n<pre><code class=\"language-elixir\">require Redux   # compiles a module\nimport Redux    # compiles, and you can use without the `Redux.` prefix\n\nuse Redux       # compiles, and runs Redux.__using__/1\nuse Redux, async: true\n\nimport Redux, only: [duplicate: 2]\nimport Redux, only: :functions\nimport Redux, only: :macros\n\nimport Foo.{Bar, Baz}\n</code></pre>\n\n<h3 id=\"aliases\">Aliases</h3>\n\n<pre><code class=\"language-elixir\">alias Foo.Bar, as: Bar\nalias Foo.Bar   # same as above\n\nalias Foo.{Bar, Baz}\n</code></pre>\n\n<h2 id=\"string\">String</h2>\n\n<h3 id=\"functions\">Functions</h3>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">import String\n</code></pre>\n\n<pre><code class=\"language-elixir\">str = \"hello\"\nstr |&gt; length()        # → 5\nstr |&gt; codepoints()    # → [\"h\", \"e\", \"l\", \"l\", \"o\"]\nstr |&gt; slice(2..-1)    # → \"llo\"\nstr |&gt; split(\" \")      # → [\"hello\"]\nstr |&gt; capitalize()    # → \"Hello\"\nstr |&gt; match(regex)\n</code></pre>\n\n<h3 id=\"inspecting-objects\">Inspecting objects</h3>\n\n<pre><code class=\"language-elixir\">inspect(object, opts \\\\ [])\n</code></pre>\n<pre><code class=\"language-elixir\">value |&gt; IO.inspect()\n</code></pre>\n<pre><code class=\"language-elixir\">value |&gt; IO.inspect(label: \"value\")\n</code></pre>\n\n<h2 id=\"numbers\">Numbers</h2>\n\n<h3 id=\"operations\">Operations</h3>\n\n<pre><code class=\"language-elixir\">abs(n)\nround(n)\nrem(a, b)   # remainder (modulo)\ndiv(a, b)   # integer division\n</code></pre>\n\n<h3 id=\"float\">Float</h3>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">import Float\n</code></pre>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">n = 10.3\n</code></pre>\n\n<pre><code class=\"language-elixir\">n |&gt; ceil()            # → 11.0\nn |&gt; ceil(2)           # → 11.30\nn |&gt; to_string()       # → \"1.030000+e01\"\nn |&gt; to_string([decimals: 2, compact: true])\n</code></pre>\n\n<pre><code class=\"language-elixir\">Float.parse(\"34\")  # → { 34.0, \"\" }\n</code></pre>\n\n<h3 id=\"integer\">Integer</h3>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">import Integer\n</code></pre>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">n = 12\n</code></pre>\n\n<pre><code class=\"language-elixir\">n |&gt; digits()         # → [1, 2]\nn |&gt; to_charlist()    # → '12'\nn |&gt; to_string()      # → \"12\"\nn |&gt; is_even()\nn |&gt; is_odd()\n</code></pre>\n\n<pre><code class=\"language-elixir\"># Different base:\nn |&gt; digits(2)        # → [1, 1, 0, 0]\nn |&gt; to_charlist(2)   # → '1100'\nn |&gt; to_string(2)     # → \"1100\"\n</code></pre>\n\n<pre><code class=\"language-elixir\">parse(\"12\")           # → {12, \"\"}\nundigits([1, 2])      # → 12\n</code></pre>\n\n<h3 id=\"type-casting\">Type casting</h3>\n\n<pre><code class=\"language-elixir\">Float.parse(\"34.1\")    # → {34.1, \"\"}\nInteger.parse(\"34\")    # → {34, \"\"}\n</code></pre>\n\n<pre><code class=\"language-elixir\">Float.to_string(34.1)  # → \"3.4100e+01\"\nFloat.to_string(34.1, [decimals: 2, compact: true])  # → \"34.1\"\n</code></pre>\n\n<h2 id=\"map\">Map</h2>\n\n<h3 id=\"defining\">Defining</h3>\n\n<pre><code class=\"language-elixir\">m = %{name: \"hi\"}       # atom keys (:name)\nm = %{\"name\" =&gt; \"hi\"}   # string keys (\"name\")\n</code></pre>\n\n<h3 id=\"updating\">Updating</h3>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">import Map\n</code></pre>\n\n<pre><code class=\"language-elixir\">m = %{m | name: \"yo\"}  # key must exist\n</code></pre>\n\n<pre><code class=\"language-elixir\">m |&gt; put(:id, 2)      # → %{id: 2, name: \"hi\"}\nm |&gt; put_new(:id, 2)  # only if `id` doesn't exist (`||=`)\n</code></pre>\n\n<pre><code class=\"language-elixir\">m |&gt; put(:b, \"Banana\")\nm |&gt; merge(%{b: \"Banana\"})\nm |&gt; update(:a, &amp;(&amp;1 + 1))\nm |&gt; update(:a, fun a -&gt; a + 1 end)\n</code></pre>\n\n<pre><code class=\"language-elixir\">m |&gt; get_and_update(:a, &amp;(&amp;1 || \"default\"))\n# → {old, new}\n</code></pre>\n\n<h3 id=\"deleting\">Deleting</h3>\n\n<pre><code class=\"language-elixir\">m |&gt; delete(:name)  # → %{}\nm |&gt; pop(:name)     # → {\"John\", %{}}\n</code></pre>\n\n<h3 id=\"reading\">Reading</h3>\n\n<pre><code class=\"language-elixir\">m |&gt; get(:id)       # → 1\nm |&gt; keys()         # → [:id, :name]\nm |&gt; values()       # → [1, \"hi\"]\n</code></pre>\n\n<pre><code class=\"language-elixir\">m |&gt; to_list()      # → [id: 1, name: \"hi\"]\n                    # → [{:id, 1}, {:name, \"hi\"}]\n</code></pre>\n\n<h3 id=\"deep\">Deep</h3>\n\n<pre><code class=\"language-elixir\">put_in(map, [:b, :c], \"Banana\")\nput_in(map[:b][:c], \"Banana\")    # via macros\n</code></pre>\n\n<pre><code class=\"language-elixir\">get_and_update_in(users, [\"john\", :age], &amp;{&amp;1, &amp;1 + 1})\n</code></pre>\n\n<h3 id=\"constructing-from-lists\">Constructing from lists</h3>\n\n<pre><code class=\"language-elixir\">Map.new([{:b, 1}, {:a, 2}])\nMap.new([a: 1, b: 2])\nMap.new([:a, :b], fn x -&gt; {x, x} end)  # → %{a: :a, b: :b}\n</code></pre>\n\n<h3 id=\"working-with-structs\">Working with structs</h3>\n\n<h4 id=\"struct-to-map\">Struct to map</h4>\n\n<pre><code class=\"language-elixir\">Map.from_struct(%AnyStruct{a: \"b\"})  # → %{a: \"b\"}\n</code></pre>\n\n<h4 id=\"map-to-struct\">Map to struct</h4>\n\n<pre><code class=\"language-elixir\">struct(AnyStruct, %{a: \"b\"})  # → %AnyStruct{a: \"b\"}\n</code></pre>\n\n<h2 id=\"list\">List</h2>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">import List\n</code></pre>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">l = [ 1, 2, 3, 4 ]\n</code></pre>\n\n<pre><code class=\"language-elixir\">l = l ++ [5]         # push (append)\nl = [ 0 | list ]     # unshift (prepend)\n</code></pre>\n\n<pre><code class=\"language-elixir\">l |&gt; first()\nl |&gt; last()\n</code></pre>\n\n<pre><code class=\"language-elixir\">l |&gt; flatten()\nl |&gt; flatten(tail)\n</code></pre>\n\n<p>Also see <a href=\"#enum\">Enum</a>.</p>\n\n<h2 id=\"enum\">Enum</h2>\n\n<h3 id=\"usage\">Usage</h3>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">import Enum\n</code></pre>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">list = [:a, :b, :c]\n</code></pre>\n\n<pre><code class=\"language-elixir\">list |&gt; at(0)         # → :a\nlist |&gt; count()       # → 3\nlist |&gt; empty?()      # → false\nlist |&gt; any?()        # → true\n</code></pre>\n\n<pre><code class=\"language-elixir\">list |&gt; concat([:d])  # → [:a, :b, :c, :d]\n</code></pre>\n\n<p>Also, consider streams instead.</p>\n\n<h3 id=\"mapreduce\">Map/reduce</h3>\n\n<pre><code class=\"language-elixir\">list |&gt; reduce(fn)\nlist |&gt; reduce(acc, fn)\nlist |&gt; map(fn)\nlist |&gt; reject(fn)\nlist |&gt; any?(fn)\nlist |&gt; empty?(fn)\n</code></pre>\n\n<pre><code class=\"language-elixir\">[1, 2, 3, 4]\n|&gt; Enum.reduce(0, fn(x, acc) -&gt; x + acc end)\n</code></pre>\n\n<h2 id=\"tuple\">Tuple</h2>\n\n<h3 id=\"tuples\">Tuples</h3>\n\n<pre class=\"-setup\"><code class=\"language-elixir\">import Tuple\n</code></pre>\n\n<pre><code class=\"language-elixir\">t = { :a, :b }\n</code></pre>\n\n<pre><code class=\"language-elixir\">t |&gt; elem(1)    # like tuple[1]\nt |&gt; put_elem(index, value)\nt |&gt; tuple_size()\n</code></pre>\n\n<h3 id=\"keyword-lists\">Keyword lists</h3>\n\n<pre><code class=\"language-elixir\">list = [{ :name, \"John\" }, { :age, 15 }]\nlist[:name]\n</code></pre>\n\n<pre><code class=\"language-elixir\"># For string-keyed keyword lists\nlist = [{\"size\", 2}, {\"type\", \"shoe\"}]\nList.keyfind(list, \"size\", 0)  # → {\"size\", 2}\n</code></pre>\n\n<h2 id=\"functions-1\">Functions</h2>\n\n<h3 id=\"lambdas\">Lambdas</h3>\n\n<pre><code class=\"language-elixir\">square = fn n -&gt; n*n end\nsquare.(20)\n</code></pre>\n\n<h3 id=\"-syntax\">&amp; syntax</h3>\n\n<pre><code class=\"language-elixir\">square = &amp;(&amp;1 * &amp;1)\nsquare.(20)\n\nsquare = &amp;Math.square/1\n</code></pre>\n\n<h3 id=\"running\">Running</h3>\n\n<pre><code class=\"language-elixir\">fun.(args)\napply(fun, args)\napply(module, fun, args)\n</code></pre>\n\n<h3 id=\"function-heads\">Function heads</h3>\n\n<pre><code class=\"language-elixir\">def join(a, b \\\\ nil)\ndef join(a, b) when is_nil(b) do: a\ndef join(a, b) do: a &lt;&gt; b\n</code></pre>\n\n<h2 id=\"structs\">Structs</h2>\n\n<h3 id=\"structs-1\">Structs</h3>\n\n<pre><code class=\"language-elixir\">defmodule User do\n  defstruct name: \"\", age: nil\nend\n\n%User{name: \"John\", age: 20}\n\n%User{}.struct  # → User\n</code></pre>\n\n<p>See: <a href=\"http://elixir-lang.org/getting-started/structs.html\">Structs</a></p>\n\n<h2 id=\"protocols\">Protocols</h2>\n\n<h3 id=\"defining-protocols\">Defining protocols</h3>\n\n<pre><code class=\"language-elixir\">defprotocol Blank do\n  @doc \"Returns true if data is considered blank/empty\"\n  def blank?(data)\nend\n</code></pre>\n\n<pre><code class=\"language-elixir\">defimpl Blank, for: List do\n  def blank?([]), do: true\n  def blank?(_), do: false\nend\n\nBlank.blank?([])  # → true\n</code></pre>\n\n<h3 id=\"any\">Any</h3>\n\n<pre><code class=\"language-elixir\">defimpl Blank, for: Any do ... end\n\ndefmodule User do\n  @derive Blank     # Falls back to Any\n  defstruct name: \"\"\nend\n</code></pre>\n\n<h3 id=\"examples\">Examples</h3>\n\n<ul>\n  <li><code>Enumerable</code> and <code>Enum.map()</code></li>\n  <li><code>Inspect</code> and <code>inspect()</code></li>\n</ul>\n\n<h2 id=\"comprehensions\">Comprehensions</h2>\n\n<h3 id=\"for\">For</h3>\n\n<pre><code class=\"language-elixir\">for n &lt;- [1, 2, 3, 4], do: n * n\nfor n &lt;- 1..4, do: n * n\n</code></pre>\n\n<pre><code class=\"language-elixir\">for {key, val} &lt;- %{a: 10, b: 20}, do: val\n# → [10, 20]\n</code></pre>\n\n<pre><code class=\"language-elixir\">for {key, val} &lt;- %{a: 10, b: 20}, into: %{}, do: {key, val*val}\n</code></pre>\n\n<h3 id=\"conditions\">Conditions</h3>\n\n<pre><code class=\"language-elixir\">for n &lt;- 1..10, rem(n, 2) == 0, do: n\n# → [2, 4, 6, 8, 10]\n</code></pre>\n\n<h3 id=\"complex\">Complex</h3>\n\n<pre><code class=\"language-elixir\">for dir &lt;- dirs,\n    file &lt;- File.ls!(dir),          # nested comprehension\n    path = Path.join(dir, file),    # invoked\n    File.regular?(path) do          # condition\n  IO.puts(file)\nend\n</code></pre>\n\n<h2 id=\"misc\">Misc</h2>\n\n<h3 id=\"metaprogramming\">Metaprogramming</h3>\n\n<pre><code class=\"language-elixir\">__MODULE__\n__MODULE__.__info__\n\n@after_compile __MODULE__\ndef __before_compile__(env)\ndef __after_compile__(env, _bytecode)\ndef __using__(opts)    # invoked on `use`\n\n@on_definition {__MODULE__, :on_def}\ndef on_def(_env, kind, name, args, guards, body)\n\n@on_load :load_check\ndef load_check\n</code></pre>\n\n<h3 id=\"regexp\">Regexp</h3>\n\n<pre><code class=\"language-elixir\">exp = ~r/hello/\nexp = ~r/hello/i\n\"hello world\" =~ exp\n</code></pre>\n\n<h3 id=\"sigils\">Sigils</h3>\n\n<pre><code class=\"language-elixir\">~r/regexp/\n~w(list of strings)\n~s|strings with #{interpolation} and \\x20 escape codes|\n~S|no interpolation and no escapes|\n~c(charlist)\n</code></pre>\n\n<p>Allowed chars: <code>/</code> <code>|</code> <code>\"</code> <code>'</code> <code>(</code> <code>[</code> <code>{</code> <code>&lt;</code> <code>\"\"\"</code>.\nSee: <a href=\"http://elixir-lang.org/getting-started/sigils.html\">Sigils</a></p>\n\n<h3 id=\"type-specs\">Type specs</h3>\n\n<pre><code class=\"language-elixir\">@spec round(number) :: integer\n\n@type number_with_remark :: {number, String.t}\n@spec add(number, number) :: number_with_remark\n</code></pre>\n\n<p>Useful for <a href=\"http://www.erlang.org/doc/man/dialyzer.html\">dialyzer</a>.\nSee: <a href=\"http://elixir-lang.org/getting-started/typespecs-and-behaviours.html\">Typespecs</a></p>\n\n<h3 id=\"behaviours\">Behaviours</h3>\n\n<pre><code class=\"language-elixir\">defmodule Parser do\n  @callback parse(String.t) :: any\n  @callback extensions() :: [String.t]\nend\n</code></pre>\n\n<pre><code class=\"language-elixir\">defmodule JSONParser do\n  @behaviour Parser\n\n  def parse(str), do: # ... parse JSON\n  def extensions, do: [\"json\"]\nend\n</code></pre>\n\n<p>See: <a href=\"http://elixir-lang.org/docs/stable/elixir/Module.html\">Module</a></p>\n\n<h2 class=\"-one-column\" id=\"references\">References</h2>\n\n<ul>\n  <li><a href=\"https://learnxinyminutes.com/docs/elixir/\">Learn Elixir in Y minutes</a></li>\n</ul>",
   "intro_html": "",
   "description_html": "",
-  "tags": ["New"],
-  "updated": "2018-07-04"
+  "tags": null,
+  "updated": null
 },{
   "id": "deprecated/emacs",
   "title": "Emacs",
@@ -867,7 +867,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-12"
+  "updated": null
 },{
   "id": "deprecated/es6",
   "title": "ES2015+",
@@ -900,7 +900,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-09-02"
+  "updated": null
 },{
   "id": "deprecated/express",
   "title": "Express.js",
@@ -922,7 +922,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-11-19"
+  "updated": null
 },{
   "id": "deprecated/factory_bot",
   "title": "Factory Bot",
@@ -944,7 +944,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-09-23"
+  "updated": null
 },{
   "id": "deprecated/ffaker",
   "title": "FFaker",
@@ -955,7 +955,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-09-12"
+  "updated": null
 },{
   "id": "deprecated/ffmpeg",
   "title": "ffmpeg",
@@ -977,7 +977,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-06-14"
+  "updated": null
 },{
   "id": "deprecated/find",
   "title": "Find",
@@ -1021,7 +1021,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-01-31"
+  "updated": null
 },{
   "id": "deprecated/flashlight",
   "title": "Flashlight",
@@ -1186,7 +1186,7 @@
   "intro_html": "<p><a href=\"https://gnupg.org/\">GnuPG</a> is a complete and free implementation of the OpenPGP standard.</p>",
   "description_html": "",
   "tags": [],
-  "updated": "2017-10-22"
+  "updated": null
 },{
   "id": "deprecated/go",
   "title": "Go",
@@ -1208,7 +1208,7 @@
   "intro_html": "<p>Goby’s language design is based on Ruby language’s, slim and shaped up. Differences in syntax between them is very small.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2018-12-06"
+  "updated": null
 },{
   "id": "deprecated/google-webfonts",
   "title": "Google Webfonts",
@@ -1252,7 +1252,7 @@
   "intro_html": "<p><a href=\"https://github.com/marmelab/gremlins.js\">Gremlins</a> is a JavaScript library to do “monkey-testing” by providing random user input (clicks, scrolls, and so on).</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-22"
+  "updated": null
 },{
   "id": "deprecated/grep",
   "title": "GNU grep",
@@ -1318,7 +1318,7 @@
   "intro_html": "<p><a href=\"http://heroku.com/\">Heroku</a> is a web hosting platform supporting many languages, and this guide is a reference to Heroku’s <a href=\"http://heroku.com/\">command-line interface</a>.</p>",
   "description_html": "<p>A one-page reference to common Heroku-CLI commands.</p>",
   "tags": null,
-  "updated": "2017-10-11"
+  "updated": null
 },{
   "id": "deprecated/hledger",
   "title": "Hledger",
@@ -1351,7 +1351,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-08-30"
+  "updated": null
 },{
   "id": "deprecated/html-input",
   "title": "Input tag",
@@ -1362,7 +1362,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-30"
+  "updated": null
 },{
   "id": "deprecated/html-meta",
   "title": "HTML meta tags",
@@ -1395,7 +1395,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-09-04"
+  "updated": null
 },{
   "id": "deprecated/html",
   "title": "HTML",
@@ -1439,7 +1439,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-03-06"
+  "updated": null
 },{
   "id": "deprecated/ie_bugs",
   "title": "Legacy IE bugs",
@@ -1450,7 +1450,7 @@
   "intro_html": "<p>A bunch of bugs to take care of if you’re going to target legacy IE browsers.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2018-03-06"
+  "updated": null
 },{
   "id": "deprecated/imagemagick",
   "title": "Imagemagick",
@@ -1538,7 +1538,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": ["WIP"],
-  "updated": "2017-11-17"
+  "updated": null
 },{
   "id": "deprecated/jekyll",
   "title": "Jekyll",
@@ -1549,7 +1549,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-08-25"
+  "updated": null
 },{
   "id": "deprecated/jest",
   "title": "Jest",
@@ -1714,7 +1714,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-09-12"
+  "updated": null
 },{
   "id": "deprecated/knex",
   "title": "Knex",
@@ -1747,7 +1747,7 @@
   "intro_html": "<p><a href=\"http://kotlinlang.org/\">Kotlin</a> is a statically typed programming language for modern multiplatform applications.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2018-12-06"
+  "updated": null
 },{
   "id": "deprecated/kramdown",
   "title": "Kramdown",
@@ -1769,7 +1769,7 @@
   "intro_html": "<p>These are CSS properties that will cause “layout thrashing”. Avoid changing them to prevent bottlenecks in your UI performance.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-19"
+  "updated": null
 },{
   "id": "deprecated/ledger-csv",
   "title": "Ledger CSV format",
@@ -1912,7 +1912,7 @@
   "intro_html": "<p>Disable mouse acceleration with this one weird trick.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2018-03-20"
+  "updated": null
 },{
   "id": "deprecated/make-assets",
   "title": "Make for assets",
@@ -1978,7 +1978,7 @@
   "intro_html": "<p><a href=\"https://npmjs.com/package/meow\">meow</a> is the easiest way to write command line apps for Node.js.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-30"
+  "updated": null
 },{
   "id": "deprecated/meta-tags",
   "title": "Meta-tags gem",
@@ -1989,7 +1989,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-09-08"
+  "updated": null
 },{
   "id": "fitness/micronutrients",
   "title": "Essential micronutrients",
@@ -2055,7 +2055,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-05-14"
+  "updated": null
 },{
   "id": "deprecated/mocha-blanket",
   "title": "Mocha blanket",
@@ -2132,7 +2132,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": ["Featurable"],
-  "updated": "2018-09-15"
+  "updated": null
 },{
   "id": "deprecated/mysql",
   "title": "MySQL",
@@ -2176,7 +2176,7 @@
   "intro_html": "<p><a href=\"https://github.com/kelseyhightower/nocode\">Nocode</a> is the best way to write secure and reliable applications. Write nothing; deploy nowhere.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2018-03-17"
+  "updated": null
 },{
   "id": "deprecated/nodejs-assert",
   "title": "assert",
@@ -2231,7 +2231,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-08-30"
+  "updated": null
 },{
   "id": "deprecated/nodejs",
   "title": "Node.js API",
@@ -2275,7 +2275,7 @@
   "intro_html": "<p><a href=\"https://orgmode.org/\">Org mode</a> is for keeping hierarchal notes (and more) in Emacs.</p>",
   "description_html": "",
   "tags": ["WIP"],
-  "updated": "2018-02-19"
+  "updated": null
 },{
   "id": "deprecated/osx",
   "title": "OS X",
@@ -2319,7 +2319,7 @@
   "intro_html": "<p>Pacman is the package manager for Arch linux and its derivatives.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2018-07-07"
+  "updated": null
 },{
   "id": "deprecated/parsimmon",
   "title": "Parsimmon",
@@ -2341,7 +2341,7 @@
   "intro_html": "<p><a href=\"http://parsleyjs.org/doc/\">Parsley</a> provides frontend form validation.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2018-12-06"
+  "updated": null
 },{
   "id": "deprecated/pass",
   "title": "Pass",
@@ -2407,7 +2407,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-01-19"
+  "updated": null
 },{
   "id": "deprecated/phoenix-ecto",
   "title": "Phoenix: Ecto",
@@ -2418,7 +2418,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": ["WIP"],
-  "updated": "2017-08-30"
+  "updated": null
 },{
   "id": "deprecated/phoenix-ecto@1.2",
   "title": "Phoenix: Ecto models",
@@ -2473,7 +2473,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-03-06"
+  "updated": null
 },{
   "id": "deprecated/phoenix@1.2",
   "title": "Phoenix 1.2",
@@ -2484,7 +2484,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-03-06"
+  "updated": null
 },{
   "id": "wip/php",
   "title": "PHP",
@@ -2528,7 +2528,7 @@
   "intro_html": "<p><a href=\"https://polyfill.io\">Polyfill.io</a> is a service that serves JavaScript polyfills.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2018-08-20"
+  "updated": null
 },{
   "id": "deprecated/postgresql-json",
   "title": "PostgreSQL JSON",
@@ -2539,7 +2539,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-12-06"
+  "updated": null
 },{
   "id": "deprecated/postgresql",
   "title": "PostgreSQL",
@@ -2616,7 +2616,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": ["Featurable"],
-  "updated": "2017-10-30"
+  "updated": null
 },{
   "id": "deprecated/python",
   "title": "Python",
@@ -2803,7 +2803,7 @@
   "intro_html": "<p><a href=\"https://github.com/rbenv/rbenv\">rbenv</a> lets you manage installations of multiple Ruby versions.</p>",
   "description_html": "<p>A one-page guide to rbenv Ruby version manager, with usage examples and more.</p>",
   "tags": null,
-  "updated": "2018-02-20"
+  "updated": null
 },{
   "id": "deprecated/rdoc",
   "title": "Rdoc",
@@ -2858,7 +2858,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-01-17"
+  "updated": null
 },{
   "id": "deprecated/regexp",
   "title": "regexp",
@@ -2935,7 +2935,7 @@
   "intro_html": "<p>Ronn generates Man pages. See <a href=\"http://rtomayko.github.io/ronn/ronn.1.html\">ronn(1)</a>, <a href=\"http://rtomayko.github.com/ronn/ronn-format.7.html\">ronn-format(7)</a>. Also see it on GitHub: <a href=\"https://github.com/rtomayko/ronn\">rtomayko/ronn</a>.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-15"
+  "updated": null
 },{
   "id": "deprecated/rspec-rails",
   "title": "Rspec-rails",
@@ -3056,7 +3056,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-12-25"
+  "updated": null
 },{
   "id": "deprecated/screen",
   "title": "Screen",
@@ -3144,7 +3144,7 @@
   "intro_html": "<p><a href=\"https://github.com/shelljs/shelljs\">ShellJS</a> is a portable (Windows/Linux/OS X) implementation of Unix shell commands on top of the Node.js API.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-27"
+  "updated": null
 },{
   "id": "deprecated/siege",
   "title": "Siege",
@@ -3188,7 +3188,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-27"
+  "updated": null
 },{
   "id": "deprecated/sketch",
   "title": "Sketch",
@@ -3199,7 +3199,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-08-30"
+  "updated": null
 },{
   "id": "deprecated/slim",
   "title": "Slim",
@@ -3265,7 +3265,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2018-12-06"
+  "updated": null
 },{
   "id": "deprecated/stencil",
   "title": "Stencil",
@@ -3298,7 +3298,7 @@
   "intro_html": "<p>The strftime format is the standard date formatting for UNIX. It’s used in C, Ruby, and more.</p>",
   "description_html": "",
   "tags": ["Featurable"],
-  "updated": "2017-11-27"
+  "updated": null
 },{
   "id": "deprecated/stylus",
   "title": "Stylus",
@@ -3309,7 +3309,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": ["Featurable"],
-  "updated": "2017-10-30"
+  "updated": null
 },{
   "id": "deprecated/sublime-text",
   "title": "Sublime Text",
@@ -3331,7 +3331,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": ["WIP"],
-  "updated": "2018-04-21"
+  "updated": null
 },{
   "id": "deprecated/tabular",
   "title": "Tabular",
@@ -3342,7 +3342,7 @@
   "intro_html": "<p><a href=\"https://github.com/godlygeek/tabular\">Tabular</a> is a Vim script for text alignment.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-11"
+  "updated": null
 },{
   "id": "deprecated/tape",
   "title": "Tape",
@@ -3364,11 +3364,11 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-09-20"
+  "updated": null
 },{
-  "id": "deprecated/tig",
+  "id": "tig",
   "title": "Tig",
-  "url": "/deprecated/tig",
+  "url": "/tig",
   "category": "Git",
   "keywords": null,
   "content_html": "<h3 id=\"installing\">Installing</h3>\n\n<pre><code class=\"language-bash\"># MacOS + Homebrew\n$ brew install tig --HEAD\n</code></pre>\n\n<pre><code class=\"language-bash\"># Ubuntu\n$ sudo apt install tig\n</code></pre>\n\n<h3 id=\"invocation\">Invocation</h3>\n\n<table>\n  <thead>\n    <tr>\n      <th>Command</th>\n      <th>Description</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><code>tig</code></td>\n      <td> </td>\n    </tr>\n  </tbody>\n  <tbody>\n    <tr>\n      <td><code>tig status</code></td>\n      <td>Status</td>\n    </tr>\n    <tr>\n      <td><code>tig blame FILE</code></td>\n      <td>Blame</td>\n    </tr>\n  </tbody>\n  <tbody>\n    <tr>\n      <td><code>tig master</code></td>\n      <td>Show a branch</td>\n    </tr>\n    <tr>\n      <td><code>tig test..master</code></td>\n      <td>Show difference between two branches</td>\n    </tr>\n    <tr>\n      <td><code>tig FILE</code></td>\n      <td>Show history of file</td>\n    </tr>\n    <tr>\n      <td><code>tig v0.0.3:README</code></td>\n      <td>Show contents of file in a specific revision</td>\n    </tr>\n    <tr>\n      <td><code>tig -C /repo/path</code></td>\n      <td>Run in dir <code>/repo/path</code> (like <code>git -C</code>)</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>You can substitute <code>git log</code> → <code>tig</code>.</p>\n\n<h2 class=\"-three-column\" id=\"shortcut-keys\">Shortcut keys</h2>\n\n<h3 id=\"switching-views\">Switching views</h3>\n\n<table class=\"-shortcuts\">\n  <tbody>\n    <tr>\n      <td><code>m</code></td>\n      <td>Main view</td>\n    </tr>\n    <tr>\n      <td><code>s</code></td>\n      <td>Status</td>\n    </tr>\n    <tr>\n      <td><code>t</code></td>\n      <td>Tree (files)</td>\n    </tr>\n    <tr>\n      <td><code>y</code></td>\n      <td>Stash view</td>\n    </tr>\n    <tr>\n      <td><code>g</code></td>\n      <td>Grep</td>\n    </tr>\n    <tr>\n      <td><code>h</code></td>\n      <td>Help</td>\n    </tr>\n  </tbody>\n</table>\n\n<h3 id=\"all-views\">All views</h3>\n\n<table class=\"-shortcuts\">\n  <thead>\n    <tr>\n      <th>Shortcut</th>\n      <th>Description</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><code>j</code>  <code>k</code></td>\n      <td>Up/down</td>\n    </tr>\n    <tr>\n      <td><code>J</code>  <code>K</code></td>\n      <td>Next/previous</td>\n    </tr>\n  </tbody>\n  <tbody>\n    <tr>\n      <td><code>&lt;</code></td>\n      <td>Back</td>\n    </tr>\n    <tr>\n      <td><code>R</code></td>\n      <td>Refresh</td>\n    </tr>\n    <tr>\n      <td><code>q</code></td>\n      <td>Close</td>\n    </tr>\n    <tr>\n      <td><code>Q</code></td>\n      <td>Close all</td>\n    </tr>\n  </tbody>\n  <tbody>\n    <tr>\n      <td><code>^N</code></td>\n      <td>Next on parent view</td>\n    </tr>\n    <tr>\n      <td><code>^P</code></td>\n      <td>Previous on parent view</td>\n    </tr>\n  </tbody>\n</table>\n\n<h3 id=\"m---main-view\"><code>m</code> - Main view</h3>\n\n<table class=\"-shortcuts\">\n  <tbody>\n    <tr>\n      <td><code>D</code></td>\n      <td>Toggle date display modes</td>\n    </tr>\n    <tr>\n      <td><code>A</code></td>\n      <td>Toggle author display modes</td>\n    </tr>\n    <tr>\n      <td><code>X</code></td>\n      <td>Toggle commit sha</td>\n    </tr>\n    <tr>\n      <td><code>C</code></td>\n      <td>Cherry pick a commit</td>\n    </tr>\n  </tbody>\n</table>\n\n<h3 id=\"s---status-view\"><code>s</code> - Status view</h3>\n\n<table class=\"-shortcuts\">\n  <tbody>\n    <tr>\n      <td><code>u</code></td>\n      <td>Stage/unstage file or chunk</td>\n    </tr>\n    <tr>\n      <td><code>!</code></td>\n      <td>Revert file or chunk</td>\n    </tr>\n    <tr>\n      <td><code>C</code></td>\n      <td>Commit</td>\n    </tr>\n    <tr>\n      <td><code>M</code></td>\n      <td>Merge</td>\n    </tr>\n    <tr>\n      <td><code>1</code></td>\n      <td>Stage line</td>\n    </tr>\n    <tr>\n      <td><code>[</code> <code>]</code></td>\n      <td>Increase/decrease the diff context</td>\n    </tr>\n  </tbody>\n</table>\n\n<h3 id=\"h---branch-view\"><code>h</code> - Branch view</h3>\n\n<table class=\"-shortcuts\">\n  <tbody>\n    <tr>\n      <td><code>i</code></td>\n      <td>Change sort header</td>\n    </tr>\n  </tbody>\n</table>\n\n<h3 id=\"h---blame-view\"><code>h</code> - Blame view</h3>\n\n<table class=\"-shortcuts\">\n  <tbody>\n    <tr>\n      <td><code>,</code></td>\n      <td>Parent commit</td>\n    </tr>\n  </tbody>\n</table>",
@@ -3518,7 +3518,7 @@
   "intro_html": "<p><a href=\"http://www.vim.org/\">Vim</a> is a very efficient text editor. This reference was made for Vim 8.0.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2018-12-06"
+  "updated": null
 },{
   "id": "deprecated/vim-digraphs",
   "title": "Vim digraphs",
@@ -3551,7 +3551,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-09-09"
+  "updated": null
 },{
   "id": "deprecated/vim-rails",
   "title": "Vim-rails",
@@ -3650,7 +3650,7 @@
   "intro_html": "<p><a href=\"https://code.visualstudio.com/\">Visual Studio Code</a>, or VSCode, is an open-source code editor. This guide targets VSCode v1.19.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2018-02-01"
+  "updated": null
 },{
   "id": "deprecated/vue",
   "title": "Vue.js",
@@ -3683,7 +3683,7 @@
   "intro_html": "<p><a href=\"https://github.com/mattgreen/watchexec\">mattgreen/watchexec</a> runs commands whenever certain files change.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-18"
+  "updated": null
 },{
   "id": "deprecated/watchman",
   "title": "Watchman",
@@ -3694,7 +3694,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-18"
+  "updated": null
 },{
   "id": "deprecated/web-workers",
   "title": "Web workers",
@@ -3705,7 +3705,7 @@
   "intro_html": "",
   "description_html": "",
   "tags": null,
-  "updated": "2017-10-30"
+  "updated": null
 },{
   "id": "deprecated/webpack",
   "title": "Webpack",
@@ -3716,7 +3716,7 @@
   "intro_html": "<p>This is a very basic “getting started with Webpack” guide for use with <a href=\"https://webpack.js.org\">Webpack</a> v3. This doesn’t cover all features, but it should get you started in understanding the config file format.</p>",
   "description_html": "",
   "tags": null,
-  "updated": "2017-09-26"
+  "updated": null
 },{
   "id": "deprecated/weechat",
   "title": "Weechat",
