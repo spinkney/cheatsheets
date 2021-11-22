@@ -9,7 +9,7 @@ intro: |
 ---
 
 ## Getting started
-{: .-three-column}
+{: .-two-column}
 
 ### Introduction
 {: .-intro}
@@ -20,7 +20,7 @@ intro: |
 ### Example
 {: .-prime}
 
-#### .stan
+#### add.stan
 {: .-file}
 
 ```stan
@@ -43,9 +43,10 @@ functions {
 }
 ```
 
-### Types of User Defined Functions
+## Types of User Defined Functions
+{: .-three-column}
 
-#### Basic Type Declarations
+### Basic Type Declarations
 
 Typical variable types. No constraint types like `simplex[]`, `cholesky_factor_corr[]`, etc.!
 ```stan
@@ -58,7 +59,7 @@ array[ , , ] real foo(real x);
 ...
 ```
 
-#### Void Type
+### Void Type
 
 These do not return any value.
 ```stan
@@ -71,7 +72,7 @@ void increment_lp(real x){
 }
 ```
 
-#### Distribution Type
+### Distribution Type
 
 Keywords `_lpdf`, `_lpmf`, `_lcdf`  
 
@@ -91,7 +92,7 @@ model {
     target += my_normal_lcdf(x | mu, sigma);
 }
 ```
-#### Log-probability Type
+### Log-probability Type
 
 Keyword `_lp`. These can access the log probability accumulator in the transformed parameters or model blocks.
 
@@ -119,7 +120,7 @@ transformed parameters {
 }
 ```
 
-#### Random number Type
+### Random number Type
 Keywork `_rng`. Works in transformed data and generated quantities blocks.
 
 ```stan
