@@ -7,6 +7,7 @@ import 'prismjs/components/prism-scss.min.js'
 import 'prismjs/components/prism-css.min.js'
 import 'prismjs/components/prism-elixir.min.js'
 import 'prismjs/components/prism-ruby.min.js'
+import 'prismjs/components/prism-stan.min.js'
 
 // Initializers
 import './initializers/prism'
