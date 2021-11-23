@@ -31,7 +31,7 @@ exclude:
 
 # Markdown
 
-highlighter: false
+highlighter: true
 markdown: kramdown
 kramdown:
   input: GFM
