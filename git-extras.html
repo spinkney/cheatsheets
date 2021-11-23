@@ -90,11 +90,11 @@
 <!-- deferred css -->
 <script id='deferred-css'>;(function(links){(requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame||(function(fn){window.addEventListener('load',fn)}))(function(){var h=document.getElementsByTagName('head')[0],l,i;for (i=0;i<links.length;i++){l=document.createElement('link');l.rel='stylesheet';l.href=links[i];h.appendChild(l);}})})([
 'https://fonts.googleapis.com/css?family=Cousine',
-'./assets/2017/style.css?t=20211123145859'
+'./assets/2017/style.css?t=20211123150116'
 ])</script>
 <noscript id='deferred-css-fallback'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cousine'>
-<link rel='stylesheet' href='./assets/2017/style.css?t=20211123145859'>
+<link rel='stylesheet' href='./assets/2017/style.css?t=20211123150116'>
 </noscript>
 
 <script type='application/ld+json'>
@@ -106,7 +106,7 @@
     "@id": "https://google.com/article"
   },
   "headline": "Git extras cheatsheet",
-  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/git-extras.jpg?t=20211123145859" ],
+  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/git-extras.jpg?t=20211123150116" ],
   "description": "One-page guide to Git extras: usage, examples, and more. Quick reference to some utilities in the git-extras utilities."
 }
 </script>
@@ -198,67 +198,67 @@
 
 <h3 id="git-flow">Git-flow</h3>
 
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git feature myfeature
-  switched to branch <span class="s1">'feature/rofl'</span>
+<pre><code class="language-sh">$ git feature myfeature
+  switched to branch 'feature/rofl'
 
-<span class="nv">$ </span>...
-<span class="nv">$ </span>git checkout develop
-<span class="nv">$ </span>git feature finish myfeature
-  merging <span class="s1">'feature/rofl'</span> into develop
-  deleted branch <span class="s1">'feature/rofl'</span>
-</code></pre></div></div>
+$ ...
+$ git checkout develop
+$ git feature finish myfeature
+  merging 'feature/rofl' into develop
+  deleted branch 'feature/rofl'
+</code></pre>
 
-<p>Also <code class="language-plaintext highlighter-rouge">git-bug</code> and <code class="language-plaintext highlighter-rouge">git-refactor</code>.</p>
+<p>Also <code>git-bug</code> and <code>git-refactor</code>.</p>
 
 <h3 id="branches">Branches</h3>
 
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git delete-merged-branches
-  <span class="c"># hint: do `git remote prune origin` after</span>
+<pre><code class="language-sh">$ git delete-merged-branches
+  # hint: do `git remote prune origin` after
 
-<span class="nv">$ </span>git create-branch development
-<span class="nv">$ </span>git delete-branch development
+$ git create-branch development
+$ git delete-branch development
 
-<span class="nv">$ </span>git fresh-branch gh-pages
-</code></pre></div></div>
+$ git fresh-branch gh-pages
+</code></pre>
 
 <h3 id="inspecting">Inspecting</h3>
 
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git summary   <span class="c"># repo age, commits, active days, etc</span>
-<span class="nv">$ </span>git impact    <span class="c"># impact graph</span>
-<span class="nv">$ </span>git effort    <span class="c"># commits per file</span>
-</code></pre></div></div>
+<pre><code class="language-sh">$ git summary   # repo age, commits, active days, etc
+$ git impact    # impact graph
+$ git effort    # commits per file
+</code></pre>
 
 <h3 id="github">Github</h3>
 
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git fork strongloop/express
-<span class="c"># sync your fork with the original repository:</span>
-<span class="nv">$ </span>git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
-<span class="nv">$ </span>git fetch upstream<span class="p">;</span> git merge upstream/master
-</code></pre></div></div>
+<pre><code class="language-sh">$ git fork strongloop/express
+# sync your fork with the original repository:
+$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+$ git fetch upstream; git merge upstream/master
+</code></pre>
 
 <h3 id="tags">Tags</h3>
 
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git release v1.0.0           <span class="c"># commit, tag, push-tags</span>
-<span class="nv">$ </span>git delete-tag v1.0.0
-</code></pre></div></div>
+<pre><code class="language-sh">$ git release v1.0.0           # commit, tag, push-tags
+$ git delete-tag v1.0.0
+</code></pre>
 
 <h3 id="conveniences">Conveniences</h3>
 
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git ignore <span class="s2">"*.log"</span>
-</code></pre></div></div>
+<pre><code class="language-sh">$ git ignore "*.log"
+</code></pre>
 
 <h3 id="locking">Locking</h3>
 
 <p>Assumes that changes will not be committed.</p>
 
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git lock config/database.yml
-<span class="nv">$ </span>git unlock config/database.yml
-</code></pre></div></div>
+<pre><code class="language-sh">$ git lock config/database.yml
+$ git unlock config/database.yml
+</code></pre>
 
 <h3 id="etc">Etc</h3>
 
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git obliterate secret.yml   <span class="c"># remove all references to it</span>
-</code></pre></div></div>
+<pre><code class="language-sh">$ git obliterate secret.yml   # remove all references to it
+</code></pre>
 
 <h3 id="references-1">References</h3>
 
@@ -548,7 +548,7 @@ function n(n,t,e){n.addEventListener?n.addEventListener(t,e):n.attachEvent("on"+
 },{}],"eoMl":[function(require,module,exports) {
 "use strict";var e=u(require("./wrapify")),d=u(require("dom101/add-class")),t=u(require("dom101/on"));function u(e){return e&&e.__esModule?e:{default:e}}var a,o=document.querySelector("[data-js-main-body]");function r(){a||((0,d.default)(document.documentElement,"LoadDone"),a=!0)}o&&((0,e.default)(o),(0,d.default)(o,"-wrapified")),(0,t.default)(window,"load",r),setTimeout(r,5e3);
 },{"./wrapify":"hE9p","dom101/add-class":"G20n","dom101/on":"DJ2P"}]},{},["eoMl"], null)</script>
-<script src='./assets/packed/app.js?t=20211123145859'></script>
+<script src='./assets/packed/app.js?t=20211123150116'></script>
 
 
 
