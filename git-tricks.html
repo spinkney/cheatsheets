@@ -83,9 +83,9 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta content='https://raw.githubusercontent.com/spinkney/cheatsheets/master/_docs/images/preview.png' property='twitter:image'>
   <style>html{opacity:0}</style>
-  <link rel="stylesheet" href="./assets/2015/style.css?t=20211123151929">
-  <link href="./assets/style.css?t=20211123151929" rel="stylesheet" />
-  <link href="./assets/print.css?t=20211123151929" rel="stylesheet" media="print" />
+  <link rel="stylesheet" href="./assets/2015/style.css?t=20211123152516">
+  <link href="./assets/style.css?t=20211123152516" rel="stylesheet" />
+  <link href="./assets/print.css?t=20211123152516" rel="stylesheet" media="print" />
 </head>
 <body>
 <div class='all'>
@@ -107,7 +107,7 @@
     "@id": "https://google.com/article"
   },
   "headline": "Git tricks cheatsheet",
-  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/git-tricks.jpg?t=20211123151929" ],
+  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/git-tricks.jpg?t=20211123152516" ],
   "description": "The one-page guide to Git tricks: usage, examples, links, snippets, and more."
 }
 </script>
@@ -155,14 +155,14 @@
     <div class='post-content -cheatsheet'>
       <h2 id="refs">Refs</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code>HEAD^       # 1 commit before head
+<pre><code>HEAD^       # 1 commit before head
 HEAD^^      # 2 commits before head
 HEAD~5      # 5 commits before head
-</code></pre></div></div>
+</code></pre>
 
 <h2 id="branches">Branches</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code># create a new branch
+<pre><code># create a new branch
   git checkout -b $branchname
   git push origin $branchname --set-upstream
 
@@ -181,21 +181,21 @@ HEAD~5      # 5 commits before head
   
 # go back to previous branch
   git checkout -
-</code></pre></div></div>
+</code></pre>
 
 <h2 id="collaboration">Collaboration</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code># Rebase your changes on top of the remote master
+<pre><code># Rebase your changes on top of the remote master
   git pull --rebase upstream master
   
 # Squash multiple commits into one for a cleaner git log
 # (on the following screen change the word pick to either 'f' or 's')
   git rebase -i $commit_ref
-</code></pre></div></div>
+</code></pre>
 
 <h2 id="submodules">Submodules</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code># Import .gitmodules
+<pre><code># Import .gitmodules
   git submodule init
 
 # Clone missing submodules, and checkout commits
@@ -204,26 +204,26 @@ HEAD~5      # 5 commits before head
 # Update remote URLs in .gitmodules
 # (Use when you changed remotes in submodules)
   git submodule sync
-</code></pre></div></div>
+</code></pre>
 
 <h2 id="diff">Diff</h2>
 
 <h3 id="diff-with-stats">Diff with stats</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code>git diff --stat
+<pre><code>git diff --stat
 app/a.txt    | 2 +-
 app/b.txt    | 8 ++----
 2 files changed, 10 insertions(+), 84 deletions(-)
-</code></pre></div></div>
+</code></pre>
 
 <h3 id="just-filenames">Just filenames</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code>git diff --summary
-</code></pre></div></div>
+<pre><code>git diff --summary
+</code></pre>
 
 <h2 id="log-options">Log options</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code>--oneline
+<pre><code>--oneline
   e11e9f9 Commit message here
 
 --decorate
@@ -234,18 +234,18 @@ app/b.txt    | 8 ++----
 
 --date=relative
   "2 hours ago"
-</code></pre></div></div>
+</code></pre>
 
 <h2 id="misc">Misc</h2>
 
 <h3 id="cherry-pick">Cherry pick</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code>git rebase 76acada^
-</code></pre></div></div>
+<pre><code>git rebase 76acada^
+</code></pre>
 
 <h3 id="misc-1">Misc</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code># get current sha1 (?)
+<pre><code># get current sha1 (?)
   git show-ref HEAD -s
 
 # show single commit info
@@ -253,11 +253,11 @@ app/b.txt    | 8 ++----
 
 # Go back up to root directory
   cd "$(git rev-parse --show-top-level)"
-</code></pre></div></div>
+</code></pre>
 
 <h2 id="short-log">Short log</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code> $ git shortlog
+<pre><code> $ git shortlog
  $ git shortlog HEAD~20..    # last 20 commits
 
  James Dean (1):
@@ -267,19 +267,19 @@ app/b.txt    | 8 ++----
  Frank Sinatra (5):
      Another commit
      This other commit
-</code></pre></div></div>
+</code></pre>
 
 <h2 id="bisect">Bisect</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code>git bisect start HEAD HEAD~6
+<pre><code>git bisect start HEAD HEAD~6
 git bisect run npm test
 git checkout refs/bisect/bad   # this is where it screwed up
 git bisect reset
-</code></pre></div></div>
+</code></pre>
 
 <h3 id="manual-bisection">Manual bisection</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code>git bisect start
+<pre><code>git bisect start
 git bisect good   # current version is good
 
 git checkout HEAD~8
@@ -287,24 +287,24 @@ npm test          # see if it's good
 git bisect bad    # current version is bad
 
 git bisect reset  # abort
-</code></pre></div></div>
+</code></pre>
 
 <h2 id="searching">Searching</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code>git log --grep="fixes things"  # search in commit messages
+<pre><code>git log --grep="fixes things"  # search in commit messages
 git log -S"window.alert"       # search in code
 git log -G"foo.*"              # search in code (regex)
-</code></pre></div></div>
+</code></pre>
 
 <h2 id="gpg-signing">GPG Signing</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="stan"><code>git config set user.signingkey &lt;GPG KEY ID&gt;       # Sets GPG key to use for signing
+<pre><code>git config set user.signingkey &lt;GPG KEY ID&gt;       # Sets GPG key to use for signing
 
 git commit -m "Implement feature Y" --gpg-sign    # Or -S, GPG signs commit
 
 git config set commit.gpgsign true                # Sign commits by default
 git commit -m "Implement feature Y" --no-gpg-sign # Do not sign
-</code></pre></div></div>
+</code></pre>
 
 
     </div>
