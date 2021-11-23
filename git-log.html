@@ -90,11 +90,11 @@
 <!-- deferred css -->
 <script id='deferred-css'>;(function(links){(requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame||(function(fn){window.addEventListener('load',fn)}))(function(){var h=document.getElementsByTagName('head')[0],l,i;for (i=0;i<links.length;i++){l=document.createElement('link');l.rel='stylesheet';l.href=links[i];h.appendChild(l);}})})([
 'https://fonts.googleapis.com/css?family=Cousine',
-'./assets/2017/style.css?t=20211123140706'
+'./assets/2017/style.css?t=20211123142225'
 ])</script>
 <noscript id='deferred-css-fallback'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cousine'>
-<link rel='stylesheet' href='./assets/2017/style.css?t=20211123140706'>
+<link rel='stylesheet' href='./assets/2017/style.css?t=20211123142225'>
 </noscript>
 
 <script type='application/ld+json'>
@@ -106,7 +106,7 @@
     "@id": "https://google.com/article"
   },
   "headline": "git log cheatsheet",
-  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/git-log.jpg?t=20211123140706" ],
+  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/git-log.jpg?t=20211123142225" ],
   "description": "The one-page guide to git log: usage, examples, links, snippets, and more."
 }
 </script>
@@ -191,82 +191,82 @@
   <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
     <h3 id="revision-ranges">Revision ranges</h3>
 
-<pre><code class="language-bash">git log master             # branch
-git log origin/master      # branch, remote
-git log v1.0.0             # tag
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git log master             <span class="c"># branch</span>
+git log origin/master      <span class="c"># branch, remote</span>
+git log v1.0.0             <span class="c"># tag</span>
 
 git log master develop
 
-git log v2.0..master       # reachable from *master* but not *v2.0*
-git log v2.0...master      # reachable from *master* and *v2.0*, but not both
-</code></pre>
+git log v2.0..master       <span class="c"># reachable from *master* but not *v2.0*</span>
+git log v2.0...master      <span class="c"># reachable from *master* and *v2.0*, but not both</span>
+</code></pre></div></div>
 
 <p>See <a href="./git-revisions">gitrevisions</a>.</p>
 
 <h3 id="basic-filters">Basic filters</h3>
 
-<pre><code class="language-bash">-n, --max-count=2
-    --skip=2
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-n</span>, <span class="nt">--max-count</span><span class="o">=</span>2
+    <span class="nt">--skip</span><span class="o">=</span>2
+</code></pre></div></div>
 
-<pre><code class="language-bash">    --since="1 week ago"
-    --until="yesterday"
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">--since</span><span class="o">=</span><span class="s2">"1 week ago"</span>
+    <span class="nt">--until</span><span class="o">=</span><span class="s2">"yesterday"</span>
+</code></pre></div></div>
 
-<pre><code class="language-bash">    --author="Rico"
-    --committer="Rico"
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">--author</span><span class="o">=</span><span class="s2">"Rico"</span>
+    <span class="nt">--committer</span><span class="o">=</span><span class="s2">"Rico"</span>
+</code></pre></div></div>
 
 <h3 id="search">Search</h3>
 
-<pre><code class="language-bash">    --grep="Merge pull request"   # in commit messages
-    -S"console.log"               # in code
-    -G"foo.*"                     # in code (regex)
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">--grep</span><span class="o">=</span><span class="s2">"Merge pull request"</span>   <span class="c"># in commit messages</span>
+    <span class="nt">-S</span><span class="s2">"console.log"</span>               <span class="c"># in code</span>
+    <span class="nt">-G</span><span class="s2">"foo.*"</span>                     <span class="c"># in code (regex)</span>
+</code></pre></div></div>
 
-<pre><code class="language-bash">    --invert-grep
-    --all-match                   # AND in multi --grep
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">--invert-grep</span>
+    <span class="nt">--all-match</span>                   <span class="c"># AND in multi --grep</span>
+</code></pre></div></div>
 
 <h3 id="limiting">Limiting</h3>
 
-<pre><code class="language-bash">    --merges
-    --no-merges
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">--merges</span>
+    <span class="nt">--no-merges</span>
+</code></pre></div></div>
 
-<pre><code class="language-bash">    --first-parent          # no stuff from merged branches
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">--first-parent</span>          <span class="c"># no stuff from merged branches</span>
+</code></pre></div></div>
 
-<pre><code class="language-bash">    --branches="feature/*"
-    --tags="v*"
-    --remotes="origin"
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">--branches</span><span class="o">=</span><span class="s2">"feature/*"</span>
+    <span class="nt">--tags</span><span class="o">=</span><span class="s2">"v*"</span>
+    <span class="nt">--remotes</span><span class="o">=</span><span class="s2">"origin"</span>
+</code></pre></div></div>
 
 <h3 id="simplification">Simplification</h3>
 
-<pre><code class="language-bash">git log -- app/file.rb          # only file
-    --simplify-by-decoration    # tags and branches
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git log <span class="nt">--</span> app/file.rb          <span class="c"># only file</span>
+    <span class="nt">--simplify-by-decoration</span>    <span class="c"># tags and branches</span>
+</code></pre></div></div>
 
 <h3 id="ordering">Ordering</h3>
 
-<pre><code class="language-bash">    --date-order
-    --author-date-order
-    --topo-order              # "smart" ordering
-    --reverse
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">--date-order</span>
+    <span class="nt">--author-date-order</span>
+    <span class="nt">--topo-order</span>              <span class="c"># "smart" ordering</span>
+    <span class="nt">--reverse</span>
+</code></pre></div></div>
 
 <h3 id="formatting">Formatting</h3>
 
-<pre><code class="language-bash">    --abbrev-commit
-    --oneline
-    --graph
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">--abbrev-commit</span>
+    <span class="nt">--oneline</span>
+    <span class="nt">--graph</span>
+</code></pre></div></div>
 
 <h3 id="custom-formats">Custom formats</h3>
 
-<pre><code class="language-bash">    --pretty="format:%H"
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">--pretty</span><span class="o">=</span><span class="s2">"format:%H"</span>
+</code></pre></div></div>
 
 <p>See: <a href="./git-log-format">Git log format cheatsheet</a></p>
 
@@ -558,7 +558,7 @@ function n(n,t,e){n.addEventListener?n.addEventListener(t,e):n.attachEvent("on"+
 },{}],"eoMl":[function(require,module,exports) {
 "use strict";var e=u(require("./wrapify")),d=u(require("dom101/add-class")),t=u(require("dom101/on"));function u(e){return e&&e.__esModule?e:{default:e}}var a,o=document.querySelector("[data-js-main-body]");function r(){a||((0,d.default)(document.documentElement,"LoadDone"),a=!0)}o&&((0,e.default)(o),(0,d.default)(o,"-wrapified")),(0,t.default)(window,"load",r),setTimeout(r,5e3);
 },{"./wrapify":"hE9p","dom101/add-class":"G20n","dom101/on":"DJ2P"}]},{},["eoMl"], null)</script>
-<script src='./assets/packed/app.js?t=20211123140706'></script>
+<script src='./assets/packed/app.js?t=20211123142225'></script>
 
 
 
