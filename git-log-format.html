@@ -90,11 +90,11 @@
 <!-- deferred css -->
 <script id='deferred-css'>;(function(links){(requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame||(function(fn){window.addEventListener('load',fn)}))(function(){var h=document.getElementsByTagName('head')[0],l,i;for (i=0;i<links.length;i++){l=document.createElement('link');l.rel='stylesheet';l.href=links[i];h.appendChild(l);}})})([
 'https://fonts.googleapis.com/css?family=Cousine',
-'./assets/2017/style.css?t=20211123150116'
+'./assets/2017/style.css?t=20211123151929'
 ])</script>
 <noscript id='deferred-css-fallback'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cousine'>
-<link rel='stylesheet' href='./assets/2017/style.css?t=20211123150116'>
+<link rel='stylesheet' href='./assets/2017/style.css?t=20211123151929'>
 </noscript>
 
 <script type='application/ld+json'>
@@ -106,7 +106,7 @@
     "@id": "https://google.com/article"
   },
   "headline": "Git log format string cheatsheet",
-  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/git-log-format.jpg?t=20211123150116" ],
+  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/git-log-format.jpg?t=20211123151929" ],
   "description": "git log --pretty=format:%H · %H - Commit hash · %an - Author · %aD - Author date · One-page guide to Git log format string"
 }
 </script>
@@ -193,8 +193,8 @@
 
 <h3 class="-prime" id="pretty-format">Pretty format</h3>
 
-<pre><code class="language-bash">git log --pretty="format:%H"
-</code></pre>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="stan"><code>git log <span class="nt">--pretty</span><span class="o">=</span><span class="s2">"format:%H"</span>
+</code></pre></div></div>
 
 <p>See the next tables on format variables.</p>
 
@@ -211,11 +211,11 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>%H</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%H</code></td>
       <td>commit hash</td>
     </tr>
     <tr>
-      <td><code>%h</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%h</code></td>
       <td>(abbrev) commit hash</td>
     </tr>
   </tbody>
@@ -232,11 +232,11 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>%T</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%T</code></td>
       <td>tree hash</td>
     </tr>
     <tr>
-      <td><code>%t</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%t</code></td>
       <td>(abbrev) tree hash</td>
     </tr>
   </tbody>
@@ -253,11 +253,11 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>%P</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%P</code></td>
       <td>parent hash</td>
     </tr>
     <tr>
-      <td><code>%p</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%p</code></td>
       <td>(abbrev) parent hash</td>
     </tr>
   </tbody>
@@ -274,25 +274,25 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>%s</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%s</code></td>
       <td>commit subject</td>
     </tr>
     <tr>
-      <td><code>%f</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%f</code></td>
       <td>commit subject, filename style</td>
     </tr>
     <tr>
-      <td><code>%b</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%b</code></td>
       <td>commit body</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><code>%d</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%d</code></td>
       <td>ref names</td>
     </tr>
     <tr>
-      <td><code>%e</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%e</code></td>
       <td>encoding</td>
     </tr>
   </tbody>
@@ -313,11 +313,11 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>%an</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%an</code></td>
       <td>author</td>
     </tr>
     <tr>
-      <td><code>%aN</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%aN</code></td>
       <td>author, respecting mailmap</td>
     </tr>
   </tbody>
@@ -334,11 +334,11 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>%ae</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%ae</code></td>
       <td>author email</td>
     </tr>
     <tr>
-      <td><code>%aE</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%aE</code></td>
       <td>author email, respecting mailmap</td>
     </tr>
   </tbody>
@@ -355,19 +355,19 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>%aD</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%aD</code></td>
       <td>author date (rfc2882)</td>
     </tr>
     <tr>
-      <td><code>%ar</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%ar</code></td>
       <td>author date (relative)</td>
     </tr>
     <tr>
-      <td><code>%at</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%at</code></td>
       <td>author date (unix timestamp)</td>
     </tr>
     <tr>
-      <td><code>%ai</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%ai</code></td>
       <td>author date (iso8601)</td>
     </tr>
   </tbody>
@@ -386,11 +386,11 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>%cn</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%cn</code></td>
       <td>committer name</td>
     </tr>
     <tr>
-      <td><code>%cN</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%cN</code></td>
       <td>committer name, respecting mailmap</td>
     </tr>
   </tbody>
@@ -407,11 +407,11 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>%ce</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%ce</code></td>
       <td>committer email</td>
     </tr>
     <tr>
-      <td><code>%cE</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%cE</code></td>
       <td>committer email, respecting mailmap</td>
     </tr>
   </tbody>
@@ -428,19 +428,19 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>%cD</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%cD</code></td>
       <td>committer date (rfc2882)</td>
     </tr>
     <tr>
-      <td><code>%cr</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%cr</code></td>
       <td>committer date (relative)</td>
     </tr>
     <tr>
-      <td><code>%ct</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%ct</code></td>
       <td>committer date (unix timestamp)</td>
     </tr>
     <tr>
-      <td><code>%ci</code></td>
+      <td><code class="language-plaintext highlighter-rouge">%ci</code></td>
       <td>committer date (iso8601)</td>
     </tr>
   </tbody>
@@ -734,7 +734,7 @@ function n(n,t,e){n.addEventListener?n.addEventListener(t,e):n.attachEvent("on"+
 },{}],"eoMl":[function(require,module,exports) {
 "use strict";var e=u(require("./wrapify")),d=u(require("dom101/add-class")),t=u(require("dom101/on"));function u(e){return e&&e.__esModule?e:{default:e}}var a,o=document.querySelector("[data-js-main-body]");function r(){a||((0,d.default)(document.documentElement,"LoadDone"),a=!0)}o&&((0,e.default)(o),(0,d.default)(o,"-wrapified")),(0,t.default)(window,"load",r),setTimeout(r,5e3);
 },{"./wrapify":"hE9p","dom101/add-class":"G20n","dom101/on":"DJ2P"}]},{},["eoMl"], null)</script>
-<script src='./assets/packed/app.js?t=20211123150116'></script>
+<script src='./assets/packed/app.js?t=20211123151929'></script>
 
 
 
