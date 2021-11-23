@@ -38,7 +38,7 @@ kramdown:
   hard_wrap: false
   parse_block_html: true
   syntax_highlighter_opts:
-    disable: true
+    # disable: true
     css_class: 'stan'
 
 # Defaults
