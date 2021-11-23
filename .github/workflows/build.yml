@@ -35,8 +35,8 @@ jobs:
         uses: actions/setup-node@v1
         with: { node-version: '12.x' }
 
-      - name: Use Ruby
-        uses: actions/setup-ruby@v1
+      - name: Setup Ruby, JRuby and TruffleRuby
+        uses: ruby/setup-ruby@v1.86.0
         with: { ruby-version: '2.7' }
 
       - name: Setup dependencies
