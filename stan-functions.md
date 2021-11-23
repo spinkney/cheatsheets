@@ -48,7 +48,7 @@ functions {
 
 ### Basic Type Declarations
 
-Typical variable types. No constraint types like `simplex[]`, `cholesky_factor_corr[]`, etc.!
+Typical variable types. **No** constraint types like `simplex[]`, `cholesky_factor_corr[]`, etc.!
 ```stan
 real foo(real x);
 vector foo(real x);
