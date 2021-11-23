@@ -90,11 +90,11 @@
 <!-- deferred css -->
 <script id='deferred-css'>;(function(links){(requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame||(function(fn){window.addEventListener('load',fn)}))(function(){var h=document.getElementsByTagName('head')[0],l,i;for (i=0;i<links.length;i++){l=document.createElement('link');l.rel='stylesheet';l.href=links[i];h.appendChild(l);}})})([
 'https://fonts.googleapis.com/css?family=Cousine',
-'./assets/2017/style.css?t=20211123142641'
+'./assets/2017/style.css?t=20211123143028'
 ])</script>
 <noscript id='deferred-css-fallback'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cousine'>
-<link rel='stylesheet' href='./assets/2017/style.css?t=20211123142641'>
+<link rel='stylesheet' href='./assets/2017/style.css?t=20211123143028'>
 </noscript>
 
 <script type='application/ld+json'>
@@ -106,7 +106,7 @@
     "@id": "https://google.com/article"
   },
   "headline": "Git revisions cheatsheet",
-  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/git-revisions.jpg?t=20211123142641" ],
+  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/git-revisions.jpg?t=20211123143028" ],
   "description": " A list of revision specifications you can use with git log and many other Git commands. Summarized from gitrevisions(7) man page."
 }
 </script>
@@ -188,7 +188,7 @@
 
   
     <div class='intro-content MarkdownBody'>
-      <p>A list of revision specifications you can use with <code class="language-plaintext highlighter-rouge">git log</code> and many other Git commands. Summarized from <code class="language-plaintext highlighter-rouge">gitrevisions(7)</code> man page.</p>
+      <p>A list of revision specifications you can use with <code>git log</code> and many other Git commands. Summarized from <code>gitrevisions(7)</code> man page.</p>
 
     </div>
   
@@ -199,25 +199,25 @@
 <table class="-mute-em">
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git log</code></em> <code class="language-plaintext highlighter-rouge">master...develop</code></td>
+      <td><em><code>git log</code></em> <code>master...develop</code></td>
       <td>inspect differences in branches</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git rebase -i</code></em> <code class="language-plaintext highlighter-rouge">HEAD~3</code></td>
+      <td><em><code>git rebase -i</code></em> <code>HEAD~3</code></td>
       <td>rebase last 3 commits</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git reset --hard</code></em> <code class="language-plaintext highlighter-rouge">HEAD@{2}</code></td>
+      <td><em><code>git reset --hard</code></em> <code>HEAD@{2}</code></td>
       <td>undo last operation that changed HEAD</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">v2^{}</code></td>
-      <td>checkout the <code class="language-plaintext highlighter-rouge">v2</code> tag (not <code class="language-plaintext highlighter-rouge">v2</code> branch)</td>
+      <td><em><code>git checkout</code></em> <code>v2^{}</code></td>
+      <td>checkout the <code>v2</code> tag (not <code>v2</code> branch)</td>
     </tr>
   </tbody>
 </table>
 
-<p>The 3rd argument in each of these commands is a <code class="language-plaintext highlighter-rouge">gitrevision</code>. These gitrevisions can be passed to many Git commands.</p>
+<p>The 3rd argument in each of these commands is a <code>gitrevision</code>. These gitrevisions can be passed to many Git commands.</p>
 
 <h3 id="common-git-revisions">Common git revisions</h3>
 
@@ -230,47 +230,47 @@
   </thead>
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git show</code></em> <code class="language-plaintext highlighter-rouge">dae68e1</code></td>
+      <td><em><code>git show</code></em> <code>dae68e1</code></td>
       <td>sha1</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git show</code></em> <code class="language-plaintext highlighter-rouge">HEAD</code></td>
+      <td><em><code>git show</code></em> <code>HEAD</code></td>
       <td>reference</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git show</code></em> <code class="language-plaintext highlighter-rouge">v1.0.0</code></td>
+      <td><em><code>git show</code></em> <code>v1.0.0</code></td>
       <td>tag</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git show</code></em> <code class="language-plaintext highlighter-rouge">master</code></td>
+      <td><em><code>git show</code></em> <code>master</code></td>
       <td>local branch</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git show</code></em> <code class="language-plaintext highlighter-rouge">origin/master</code></td>
+      <td><em><code>git show</code></em> <code>origin/master</code></td>
       <td>remote branch</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git show</code></em> <code class="language-plaintext highlighter-rouge">master~2</code></td>
+      <td><em><code>git show</code></em> <code>master~2</code></td>
       <td>2 commits back from master</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git show</code></em> <code class="language-plaintext highlighter-rouge">master..fix</code></td>
+      <td><em><code>git show</code></em> <code>master..fix</code></td>
       <td>reachable from <em>fix</em> but not <em>master</em></td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git show</code></em> <code class="language-plaintext highlighter-rouge">master...fix</code></td>
+      <td><em><code>git show</code></em> <code>master...fix</code></td>
       <td>reachable from <em>fix</em> and <em>master</em>, but not both</td>
     </tr>
   </tbody>
 </table>
 
-<p>These are just the common ones, there’s a lot more below! (These work in many other commands, not just <code class="language-plaintext highlighter-rouge">git show</code>.)</p>
+<p>These are just the common ones, there’s a lot more below! (These work in many other commands, not just <code>git show</code>.)</p>
 
 <h2 id="reference">Reference</h2>
 
@@ -279,7 +279,7 @@
 <table class="-mute-em">
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">dae68e1</code></td>
+      <td><em><code>git checkout</code></em> <code>dae68e1</code></td>
       <td>sha1</td>
     </tr>
   </tbody>
@@ -296,25 +296,25 @@
   </thead>
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">HEAD</code></td>
+      <td><em><code>git checkout</code></em> <code>HEAD</code></td>
       <td>reference</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">master</code></td>
+      <td><em><code>git checkout</code></em> <code>master</code></td>
       <td>branch</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">v1.0.0</code></td>
+      <td><em><code>git checkout</code></em> <code>v1.0.0</code></td>
       <td>tag</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">origin/master</code></td>
+      <td><em><code>git checkout</code></em> <code>origin/master</code></td>
       <td>aka, <em>refs/remotes/origin/master</em></td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">heads/master</code></td>
+      <td><em><code>git checkout</code></em> <code>heads/master</code></td>
       <td>aka, <em>refs/heads/master</em></td>
     </tr>
   </tbody>
@@ -331,49 +331,49 @@
   </thead>
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">master@{yesterday}</code></td>
+      <td><em><code>git checkout</code></em> <code>master@{yesterday}</code></td>
       <td>also <em>1 day ago</em>, etc</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">master@{2}</code></td>
+      <td><em><code>git checkout</code></em> <code>master@{2}</code></td>
       <td>2nd prior value</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">master@{push}</code></td>
+      <td><em><code>git checkout</code></em> <code>master@{push}</code></td>
       <td>where <em>master</em> would push to</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">master^</code></td>
+      <td><em><code>git checkout</code></em> <code>master^</code></td>
       <td>parent commit</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">master^2</code></td>
+      <td><em><code>git checkout</code></em> <code>master^2</code></td>
       <td>2nd parent, eg, what it merged</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">master~5</code></td>
+      <td><em><code>git checkout</code></em> <code>master~5</code></td>
       <td>5 parents back</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">master^0</code></td>
+      <td><em><code>git checkout</code></em> <code>master^0</code></td>
       <td>this commit; disambiguates from tags</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">v0.99.8^{tag}</code></td>
+      <td><em><code>git checkout</code></em> <code>v0.99.8^{tag}</code></td>
       <td>can be <em>commit</em>, <em>tag</em>, <em>tree</em>, <em>object</em></td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">v0.99.8^{}</code></td>
+      <td><em><code>git checkout</code></em> <code>v0.99.8^{}</code></td>
       <td>defaults to <em>{tag}</em></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git checkout</code></em> <code class="language-plaintext highlighter-rouge">":/fix bug"</code></td>
+      <td><em><code>git checkout</code></em> <code>":/fix bug"</code></td>
       <td>searches commit messages</td>
     </tr>
   </tbody>
@@ -384,11 +384,11 @@
 <table>
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">HEAD:README</code></td>
+      <td><code>HEAD:README</code></td>
       <td>…</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">0:README</code></td>
+      <td><code>0:README</code></td>
       <td>(0 to 3) …</td>
     </tr>
   </tbody>
@@ -401,31 +401,31 @@
 <table class="-mute-em">
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git log</code></em> <code class="language-plaintext highlighter-rouge">master</code></td>
+      <td><em><code>git log</code></em> <code>master</code></td>
       <td>reachable parents from master</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git log</code></em> <code class="language-plaintext highlighter-rouge">^master</code></td>
+      <td><em><code>git log</code></em> <code>^master</code></td>
       <td>exclude reachable parents from master</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git log</code></em> <code class="language-plaintext highlighter-rouge">master..fix</code></td>
+      <td><em><code>git log</code></em> <code>master..fix</code></td>
       <td>reachable from <em>fix</em> but not <em>master</em></td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git log</code></em> <code class="language-plaintext highlighter-rouge">master...fix</code></td>
+      <td><em><code>git log</code></em> <code>master...fix</code></td>
       <td>reachable from <em>fix</em> and <em>master</em>, but not both</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git log</code></em> <code class="language-plaintext highlighter-rouge">HEAD^@</code></td>
+      <td><em><code>git log</code></em> <code>HEAD^@</code></td>
       <td>parents of <em>HEAD</em></td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git log</code></em> <code class="language-plaintext highlighter-rouge">HEAD^!</code></td>
+      <td><em><code>git log</code></em> <code>HEAD^!</code></td>
       <td><em>HEAD</em>, then excluding parents’s ancestors</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git log</code></em> <code class="language-plaintext highlighter-rouge">HEAD^{:/fix}</code></td>
+      <td><em><code>git log</code></em> <code>HEAD^{:/fix}</code></td>
       <td>search previous <em>HEAD</em>s matching criteria</td>
     </tr>
   </tbody>
@@ -441,11 +441,11 @@
 <table class="-mute-em">
   <tbody>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git log</code></em> <code class="language-plaintext highlighter-rouge">master..fix</code></td>
+      <td><em><code>git log</code></em> <code>master..fix</code></td>
       <td>BCD</td>
     </tr>
     <tr>
-      <td><em><code class="language-plaintext highlighter-rouge">git log</code></em> <code class="language-plaintext highlighter-rouge">master...fix</code></td>
+      <td><em><code>git log</code></em> <code>master...fix</code></td>
       <td>BCD and EFG</td>
     </tr>
   </tbody>
@@ -740,7 +740,7 @@ function n(n,t,e){n.addEventListener?n.addEventListener(t,e):n.attachEvent("on"+
 },{}],"eoMl":[function(require,module,exports) {
 "use strict";var e=u(require("./wrapify")),d=u(require("dom101/add-class")),t=u(require("dom101/on"));function u(e){return e&&e.__esModule?e:{default:e}}var a,o=document.querySelector("[data-js-main-body]");function r(){a||((0,d.default)(document.documentElement,"LoadDone"),a=!0)}o&&((0,e.default)(o),(0,d.default)(o,"-wrapified")),(0,t.default)(window,"load",r),setTimeout(r,5e3);
 },{"./wrapify":"hE9p","dom101/add-class":"G20n","dom101/on":"DJ2P"}]},{},["eoMl"], null)</script>
-<script src='./assets/packed/app.js?t=20211123142641'></script>
+<script src='./assets/packed/app.js?t=20211123143028'></script>
 
 
 

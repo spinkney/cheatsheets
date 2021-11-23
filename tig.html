@@ -90,11 +90,11 @@
 <!-- deferred css -->
 <script id='deferred-css'>;(function(links){(requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame||(function(fn){window.addEventListener('load',fn)}))(function(){var h=document.getElementsByTagName('head')[0],l,i;for (i=0;i<links.length;i++){l=document.createElement('link');l.rel='stylesheet';l.href=links[i];h.appendChild(l);}})})([
 'https://fonts.googleapis.com/css?family=Cousine',
-'./assets/2017/style.css?t=20211123142641'
+'./assets/2017/style.css?t=20211123143028'
 ])</script>
 <noscript id='deferred-css-fallback'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cousine'>
-<link rel='stylesheet' href='./assets/2017/style.css?t=20211123142641'>
+<link rel='stylesheet' href='./assets/2017/style.css?t=20211123143028'>
 </noscript>
 
 <script type='application/ld+json'>
@@ -106,7 +106,7 @@
     "@id": "https://google.com/article"
   },
   "headline": "Tig cheatsheet",
-  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/tig.jpg?t=20211123142641" ],
+  "image": [ "https://assets.spinkney.github.io/cheatsheets/previews/tig.jpg?t=20211123143028" ],
   "description": "The one-page guide to Tig: usage, examples, links, snippets, and more."
 }
 </script>
@@ -191,13 +191,13 @@
   <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
     <h3 id="installing">Installing</h3>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># MacOS + Homebrew</span>
-<span class="nv">$ </span>brew <span class="nb">install </span>tig <span class="nt">--HEAD</span>
-</code></pre></div></div>
+<pre><code class="language-bash"># MacOS + Homebrew
+$ brew install tig --HEAD
+</code></pre>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Ubuntu</span>
-<span class="nv">$ </span><span class="nb">sudo </span>apt <span class="nb">install </span>tig
-</code></pre></div></div>
+<pre><code class="language-bash"># Ubuntu
+$ sudo apt install tig
+</code></pre>
 
 <h3 id="invocation">Invocation</h3>
 
@@ -210,45 +210,45 @@
   </thead>
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">tig</code></td>
+      <td><code>tig</code></td>
       <td> </td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">tig status</code></td>
+      <td><code>tig status</code></td>
       <td>Status</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">tig blame FILE</code></td>
+      <td><code>tig blame FILE</code></td>
       <td>Blame</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">tig master</code></td>
+      <td><code>tig master</code></td>
       <td>Show a branch</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">tig test..master</code></td>
+      <td><code>tig test..master</code></td>
       <td>Show difference between two branches</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">tig FILE</code></td>
+      <td><code>tig FILE</code></td>
       <td>Show history of file</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">tig v0.0.3:README</code></td>
+      <td><code>tig v0.0.3:README</code></td>
       <td>Show contents of file in a specific revision</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">tig -C /repo/path</code></td>
-      <td>Run in dir <code class="language-plaintext highlighter-rouge">/repo/path</code> (like <code class="language-plaintext highlighter-rouge">git -C</code>)</td>
+      <td><code>tig -C /repo/path</code></td>
+      <td>Run in dir <code>/repo/path</code> (like <code>git -C</code>)</td>
     </tr>
   </tbody>
 </table>
 
-<p>You can substitute <code class="language-plaintext highlighter-rouge">git log</code> → <code class="language-plaintext highlighter-rouge">tig</code>.</p>
+<p>You can substitute <code>git log</code> → <code>tig</code>.</p>
 
 <h2 class="-three-column" id="shortcut-keys">Shortcut keys</h2>
 
@@ -257,27 +257,27 @@
 <table class="-shortcuts">
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">m</code></td>
+      <td><code>m</code></td>
       <td>Main view</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">s</code></td>
+      <td><code>s</code></td>
       <td>Status</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">t</code></td>
+      <td><code>t</code></td>
       <td>Tree (files)</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">y</code></td>
+      <td><code>y</code></td>
       <td>Stash view</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">g</code></td>
+      <td><code>g</code></td>
       <td>Grep</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">h</code></td>
+      <td><code>h</code></td>
       <td>Help</td>
     </tr>
   </tbody>
@@ -294,115 +294,115 @@
   </thead>
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">j</code>  <code class="language-plaintext highlighter-rouge">k</code></td>
+      <td><code>j</code>  <code>k</code></td>
       <td>Up/down</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">J</code>  <code class="language-plaintext highlighter-rouge">K</code></td>
+      <td><code>J</code>  <code>K</code></td>
       <td>Next/previous</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">&lt;</code></td>
+      <td><code>&lt;</code></td>
       <td>Back</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">R</code></td>
+      <td><code>R</code></td>
       <td>Refresh</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">q</code></td>
+      <td><code>q</code></td>
       <td>Close</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">Q</code></td>
+      <td><code>Q</code></td>
       <td>Close all</td>
     </tr>
   </tbody>
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">^N</code></td>
+      <td><code>^N</code></td>
       <td>Next on parent view</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">^P</code></td>
+      <td><code>^P</code></td>
       <td>Previous on parent view</td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="m---main-view"><code class="language-plaintext highlighter-rouge">m</code> - Main view</h3>
+<h3 id="m---main-view"><code>m</code> - Main view</h3>
 
 <table class="-shortcuts">
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">D</code></td>
+      <td><code>D</code></td>
       <td>Toggle date display modes</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">A</code></td>
+      <td><code>A</code></td>
       <td>Toggle author display modes</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">X</code></td>
+      <td><code>X</code></td>
       <td>Toggle commit sha</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">C</code></td>
+      <td><code>C</code></td>
       <td>Cherry pick a commit</td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="s---status-view"><code class="language-plaintext highlighter-rouge">s</code> - Status view</h3>
+<h3 id="s---status-view"><code>s</code> - Status view</h3>
 
 <table class="-shortcuts">
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">u</code></td>
+      <td><code>u</code></td>
       <td>Stage/unstage file or chunk</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">!</code></td>
+      <td><code>!</code></td>
       <td>Revert file or chunk</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">C</code></td>
+      <td><code>C</code></td>
       <td>Commit</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">M</code></td>
+      <td><code>M</code></td>
       <td>Merge</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">1</code></td>
+      <td><code>1</code></td>
       <td>Stage line</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">[</code> <code class="language-plaintext highlighter-rouge">]</code></td>
+      <td><code>[</code> <code>]</code></td>
       <td>Increase/decrease the diff context</td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="h---branch-view"><code class="language-plaintext highlighter-rouge">h</code> - Branch view</h3>
+<h3 id="h---branch-view"><code>h</code> - Branch view</h3>
 
 <table class="-shortcuts">
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">i</code></td>
+      <td><code>i</code></td>
       <td>Change sort header</td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="h---blame-view"><code class="language-plaintext highlighter-rouge">h</code> - Blame view</h3>
+<h3 id="h---blame-view"><code>h</code> - Blame view</h3>
 
 <table class="-shortcuts">
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">,</code></td>
+      <td><code>,</code></td>
       <td>Parent commit</td>
     </tr>
   </tbody>
@@ -690,7 +690,7 @@ function n(n,t,e){n.addEventListener?n.addEventListener(t,e):n.attachEvent("on"+
 },{}],"eoMl":[function(require,module,exports) {
 "use strict";var e=u(require("./wrapify")),d=u(require("dom101/add-class")),t=u(require("dom101/on"));function u(e){return e&&e.__esModule?e:{default:e}}var a,o=document.querySelector("[data-js-main-body]");function r(){a||((0,d.default)(document.documentElement,"LoadDone"),a=!0)}o&&((0,e.default)(o),(0,d.default)(o,"-wrapified")),(0,t.default)(window,"load",r),setTimeout(r,5e3);
 },{"./wrapify":"hE9p","dom101/add-class":"G20n","dom101/on":"DJ2P"}]},{},["eoMl"], null)</script>
-<script src='./assets/packed/app.js?t=20211123142641'></script>
+<script src='./assets/packed/app.js?t=20211123143028'></script>
 
 
 
