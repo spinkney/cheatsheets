@@ -41,7 +41,7 @@
   }
 
   pre > code {
-    color: $base-head;
+    color: #f5f5f5;
     max-height: auto;
     padding: 0;
     background: transparent;
@@ -82,7 +82,7 @@
 
 .token {
   $cA: #ab99cd;
-  $cA-3: adjust-color($cA, $lightness: 8%, $hue: -10deg);
+  $cA-3: #e08000;
   $cA-7: adjust-color($cA, $lightness: -8%, $hue: 10deg);
 
   $cB: #7ec699;
