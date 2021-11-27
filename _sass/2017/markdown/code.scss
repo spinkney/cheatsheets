@@ -82,8 +82,8 @@
 
 .token {
   $cA: #ab99cd;
-  $cA-3: #e08000;
-  $cA-7: adjust-color($cA, $lightness: -8%, $hue: 10deg);
+  $cA-3: #7aabd6;
+  $cA-7: #e08000;
 
   $cB: #7ec699;
   $cB-3: adjust-color($cB, $lightness: 8%, $hue: -10deg);
