@@ -1,5 +1,6 @@
 .MarkdownBody code {
-  color: $gray-text;
+  color: #d2dbde;
+  //color: $gray-text;
   font-size: $code-size;
 }
 
@@ -29,7 +30,8 @@
     border-left: 0;
     overflow: hidden;
     overflow-x: auto;
-    background: white;
+    background: #2a2c2f;
+    // background: white;
     font-size: $code-size;
     line-height: $code-line-height;
   }
@@ -79,11 +81,11 @@
  */
 
 .token {
-  $cA: $base-b;
+  $cA: #ab99cd;
   $cA-3: adjust-color($cA, $lightness: 8%, $hue: -10deg);
   $cA-7: adjust-color($cA, $lightness: -8%, $hue: 10deg);
 
-  $cB: $base-c;
+  $cB: #7ec699;
   $cB-3: adjust-color($cB, $lightness: 8%, $hue: -10deg);
 
   $cM: #669; // Mute
@@ -117,6 +119,6 @@
   }
 
   &.comment {
-    color: #569;
+    color: #999999;
   }
 }
