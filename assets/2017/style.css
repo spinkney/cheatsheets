@@ -56,7 +56,7 @@ html.WithJs.LoadDone .pages-list, html.WithJs.LoadDone .post-content.-wrapified,
 /* Undo prism theme crap */
 .MarkdownBody pre { box-shadow: none; border-left: 0; overflow: hidden; overflow-x: auto; background: #2a2c2f; font-size: 0.96em; line-height: 1.5; }
 .MarkdownBody pre.-wrap { white-space: pre-wrap; }
-.MarkdownBody pre > code { color: #111; max-height: auto; padding: 0; background: transparent; overflow: visible; font-size: 1em; }
+.MarkdownBody pre > code { color: #f5f5f5; max-height: auto; padding: 0; background: transparent; overflow: visible; font-size: 1em; }
 .MarkdownBody .line-highlight { transform: translate3d(0, 2px, 0); background: linear-gradient(to right, rgba(78, 48, 50, 0.05) 25%, transparent); }
 .MarkdownBody .line-highlight[data-end] { margin-top: 0; }
 .MarkdownBody .line-highlight::before, .MarkdownBody .line-highlight::after { display: none; }
@@ -67,7 +67,7 @@ html.WithJs.LoadDone .pages-list, html.WithJs.LoadDone .post-content.-wrapified,
 .token.tag, .token.keyword { color: #ab99cd; }
 .token.tag { color: #9f7ec0; }
 .token.value, .token.string, .token.number, .token.attr-value, .token.boolean, .token.regex { color: #7ec699; }
-.token.function, .token.attr-name { color: #bbb4da; }
+.token.function, .token.attr-name { color: #e08000; }
 .token.punctuation, .token.operator { color: #669; }
 .token.comment { color: #999999; }
 
