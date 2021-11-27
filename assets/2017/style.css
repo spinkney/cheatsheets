@@ -65,9 +65,9 @@ html.WithJs.LoadDone .pages-list, html.WithJs.LoadDone .post-content.-wrapified,
 
 /* Syntax kighlight */
 .token.tag, .token.keyword { color: #ab99cd; }
-.token.tag { color: #9f7ec0; }
+.token.tag { color: #e08000; }
 .token.value, .token.string, .token.number, .token.attr-value, .token.boolean, .token.regex { color: #7ec699; }
-.token.function, .token.attr-name { color: #e08000; }
+.token.function, .token.attr-name { color: #7aabd6; }
 .token.punctuation, .token.operator { color: #669; }
 .token.comment { color: #999999; }
 
