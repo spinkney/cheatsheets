@@ -28,18 +28,18 @@ functions {
   real add(real x, real y) {
     return x + y;
   }
-  data {
-      real x;
-  }
-  parameters {
-      real y;
-  }
-  transformed parameters {
-      real z = add(x, y);
-  }
-  model {
-      y ~ std_normal();
-  }
+}
+data {
+  real x;
+}
+parameters {
+  real y;
+}
+transformed parameters {
+  real z = add(x, y);
+}
+model {
+  y ~ std_normal();
 }
 ```
 
@@ -121,7 +121,7 @@ transformed parameters {
 ```
 
 ### Random number Type
-Keywork `_rng`. Works in transformed data and generated quantities blocks.
+Keyword `_rng`. Works in transformed data and generated quantities blocks.
 
 ```stan
 real normal_lub_rng(real mu, real sigma, real lb, real ub) {
